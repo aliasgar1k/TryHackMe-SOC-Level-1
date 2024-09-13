@@ -14,7 +14,7 @@ Learn about the four core features of the Diamond Model of Intrusion Analysis: a
 
 The Diamond Model carries the essential concepts of intrusion analysis and adversary operations while allowing the flexibility to expand and encompass new ideas and concepts. The model provides various opportunities to integrate intelligence in real-time for network defence, automating correlation across events, classifying events with confidence into adversary campaigns, and forecasting adversary operations while planning and gaming mitigation strategies.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/05%20Diamond%20Model/e9cd530891e24c96b47a44958fb53ccb_MD5.webp)
+![](_resources/05%20Diamond%20Model/e9cd530891e24c96b47a44958fb53ccb_MD5.webp)
 
 ## Why should you learn about The Diamond Model?
 
@@ -44,7 +44,7 @@ As an example, an adversary customer could control different operators simultane
 
 ### Answer the questions below:-
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/05%20Diamond%20Model/bdf6de88e708cb7b5cb0d247b9885256_MD5.jpg)
+![](_resources/05%20Diamond%20Model/bdf6de88e708cb7b5cb0d247b9885256_MD5.jpg)
 
 # Task 3 Victim
 
@@ -58,7 +58,7 @@ A victim can be an opportunity for the attackers to get a foothold on the organi
 
 ### Answer the questions below:-
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/05%20Diamond%20Model/527081a5ab4ec2caf00c43e5e45486c6_MD5.jpg)
+![](_resources/05%20Diamond%20Model/527081a5ab4ec2caf00c43e5e45486c6_MD5.jpg)
 
 # Task 4 Capability
 
@@ -74,7 +74,7 @@ An adversary must have the required capabilities. The capabilities can be malwar
 
 ### Answer the questions below:-
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/05%20Diamond%20Model/58938ba1d7b034f921538d574ec2b912_MD5.jpg)
+![](_resources/05%20Diamond%20Model/58938ba1d7b034f921538d574ec2b912_MD5.jpg)
 
 # Task 5 Infrastructure
 
@@ -90,11 +90,11 @@ The infrastructure can also be IP addresses, domain names, email addresses, or e
 
 ### Answer the questions below:-
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/05%20Diamond%20Model/ec0d9140f373f93c9aa453f0a6b8ac26_MD5.jpg)
+![](_resources/05%20Diamond%20Model/ec0d9140f373f93c9aa453f0a6b8ac26_MD5.jpg)
 
 # Task 6 Event Meta Features
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/05%20Diamond%20Model/72248c1b80eb29302c14ffc76afec3e9_MD5.jpg)
+![](_resources/05%20Diamond%20Model/72248c1b80eb29302c14ffc76afec3e9_MD5.jpg)
 
 Six possible meta-features can be added to the Diamond Model. Meta-features are not required, but they can add some valuable information or intelligence to the Diamond Model.
 
@@ -116,7 +116,7 @@ Six possible meta-features can be added to the Diamond Model. Meta-features are 
 
 ### Answer the questions below
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/05%20Diamond%20Model/d4fcfe6887920d62909f8ec61ab2d295_MD5.jpg)
+![](_resources/05%20Diamond%20Model/d4fcfe6887920d62909f8ec61ab2d295_MD5.jpg)
 
 # Task 7 Social-Political Component
 
@@ -140,7 +140,7 @@ Are you ready to construct the Diamond Model? Please, deploy the static site att
 
 ### Answer the questions below:-
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/05%20Diamond%20Model/b73f66c297a915702652f99b8919cc22_MD5.jpg)
+![](_resources/05%20Diamond%20Model/b73f66c297a915702652f99b8919cc22_MD5.jpg)
 
 # Task 10 Conclusion
 

@@ -24,7 +24,7 @@ General familiarity with security concepts is: check out the [Pre-Security](http
 
 At the end of the room, we will have an exercise task to test your knowledge of using MISP.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/05%20MISP/a5eb259bcd86536e2f9a7d200abcf891_MD5.jpg)
+![](_resources/05%20MISP/a5eb259bcd86536e2f9a7d200abcf891_MD5.jpg)
 
 # Task 2: MISP Introduction: Features & Terminologies
 
@@ -45,7 +45,7 @@ MISP is effectively useful for the following use cases:
 
 ## What does MISP support?
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/05%20MISP/0a0d54a7596ff0ecf5024b60bb0edbb8_MD5.jpg)
+![](_resources/05%20MISP/0a0d54a7596ff0ecf5024b60bb0edbb8_MD5.jpg)
 
 MISP provides the following core functionalities:
 
@@ -89,7 +89,7 @@ The analyst’s view of MISP provides you with the functionalities to track, sha
 - **Envelope:** Link to User Dashboard to consult some of your notifications and changes since the last visit. Like some of the proposals received for your organisation.
 - **Log out:** The Log out button to end your session immediately.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/05%20MISP/3379fdada4ed11f822b002270bad846c_MD5.jpg)
+![](_resources/05%20MISP/3379fdada4ed11f822b002270bad846c_MD5.jpg)
 
 ## Event Management
 
@@ -112,11 +112,11 @@ In the beginning, events are a storage of general information about an incident 
 
 Additionally, MISP provides a means to add a sharing group, where an analyst can define a predefined list of organisations to share events.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/05%20MISP/251bee6f513e5f11748168f5754ade5e_MD5.jpg)
+![](_resources/05%20MISP/251bee6f513e5f11748168f5754ade5e_MD5.jpg)
 
 Event details can also be populated by filling out predefined fields on a defined template, including adding attributes to the event. We can use the email details of the CobaltStrike investigation to populate details of our event. We will be using the **Phishing E-mail** category from the templates.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/05%20MISP/303ffb759690d63ee5196e80026b3f57_MD5.jpg)
+![](_resources/05%20MISP/303ffb759690d63ee5196e80026b3f57_MD5.jpg)
 
 ## Attributes & Attachments
 
@@ -129,17 +129,17 @@ Some essential options to note are:
 
 In our example below, we add an Emotet Epoch 4 C2 IP address associated with the infection as our attributes, obtained from the IOC text file.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/05%20MISP/91c760c49bfc76bbddd187f108584ce3_MD5.jpg)
+![](_resources/05%20MISP/91c760c49bfc76bbddd187f108584ce3_MD5.jpg)
 
 The analyst can also add file attachments to the event. These may include malware, report files from external analysis or simply artefacts dropped by the malware. We have added the Cobalt Strike EXE binary file to our event in our example. You also have to check the Malware checkbox to mark the file as malware. This will ensure that it is zipped and passworded to protect users from accidentally downloading and executing the file.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/05%20MISP/81fb9581b8531f1cee095752f944c15e_MD5.gif)
+![](_resources/05%20MISP/81fb9581b8531f1cee095752f944c15e_MD5.gif)
 
 ## Publish Event
 
 Once the analysts have created events, the _organisation admin_ will review and publish those events to add them to the pool of events. This will also share the events to the distribution channels set during the creation of the events.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/05%20MISP/8e559fb18efba89e41346835602e9e6f_MD5.gif)
+![](_resources/05%20MISP/8e559fb18efba89e41346835602e9e6f_MD5.gif)
 
 ### Answer the questions below:
 
@@ -147,13 +147,13 @@ Once the analysts have created events, the _organisation admin_ will review and 
 
 In the task text:
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/05%20MISP/1006294faec2c2cab81246922a588d75_MD5.jpg)
+![](_resources/05%20MISP/1006294faec2c2cab81246922a588d75_MD5.jpg)
 
 Answer: 4
 
 **Which user has the role to publish events?**
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/05%20MISP/a9dffdd7133a380e3e2ac083fcbf41c0_MD5.jpg)
+![](_resources/05%20MISP/a9dffdd7133a380e3e2ac083fcbf41c0_MD5.jpg)
 
 Answer: organisation admin
 
@@ -172,13 +172,13 @@ MISP Feeds provide a way to:
 
 Feeds are enabled and managed by the **Site Admin** for the analysts to obtain information on events and indicators.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/05%20MISP/3b1e27c8d2ff6044cddcbe16ed4ed05d_MD5.gif)
+![](_resources/05%20MISP/3b1e27c8d2ff6044cddcbe16ed4ed05d_MD5.gif)
 
 ## Taxonomies
 
 A taxonomy is a means of classifying information based on standard features or attributes. On MISP, taxonomies are used to categorise events, indicators and threat actors based on tags that identify them.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/05%20MISP/a60f35b375824215da8d2ef137da71dc_MD5.jpg)
+![](_resources/05%20MISP/a60f35b375824215da8d2ef137da71dc_MD5.jpg)
 
 Analysts can use taxonomies to:
 
@@ -196,7 +196,7 @@ Taxonomies are expressed in machine tags, which comprise three vital parts:
 
 Taxonomies are listed under the _Event Actions_ tab. The site admin can enable relevant taxonomies.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/05%20MISP/be5592bc90c35edc5edb727ac6762f71_MD5.gif)
+![](_resources/05%20MISP/be5592bc90c35edc5edb727ac6762f71_MD5.gif)
 
 ## Tagging
 
@@ -204,7 +204,7 @@ Information from feeds and taxonomies, tags can be placed on events and attribut
 
 In our CobaltStrike event example, we can add tags by clicking on the buttons in the **Tags** section and searching from the available options appropriate to the case. The buttons represent _global_ tags and _local_ tags, respectively. It is also important to note that you can add your unique tags to your MISP instance as an analyst or organisation that would allow you to ingest, navigate through and share information quickly within the organisation.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/05%20MISP/2d091d0246e20cd20451ec7df1472074_MD5.gif)
+![](_resources/05%20MISP/2d091d0246e20cd20451ec7df1472074_MD5.gif)
 
 ## Tagging Best Practices
 
@@ -231,7 +231,7 @@ The following tags can be considered a must-have to provide a well-defined event
 
 For this you’ll either need to use the attackbox to launch the webapp or connect through a vpn, which is how I’ll be doing it. Launch the webapp using the link provided in task 3, login using the creds provided in the same task and then search pupyrat, ID will be displayed after:
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/05%20MISP/b1d3d9386e0697d975aeb1740facae00_MD5.jpg)
+![](_resources/05%20MISP/b1d3d9386e0697d975aeb1740facae00_MD5.jpg)
 
 Answer: 1145
 
@@ -239,7 +239,7 @@ Answer: 1145
 
 Click on the event ID and under **Tags** we’ll get our answer:
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/05%20MISP/ee357232b95c509b6bfbee148d96150e_MD5.jpg)
+![](_resources/05%20MISP/ee357232b95c509b6bfbee148d96150e_MD5.jpg)
 
 Answer: remote access
 
@@ -247,7 +247,7 @@ Answer: remote access
 
 For this I just did a Ctrl+F for “c2” which got no relevant hits, then searched “command” and that got me the answer:
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/05%20MISP/021a743ec68c742cadbdf762be577f4d_MD5.jpg)
+![](_resources/05%20MISP/021a743ec68c742cadbdf762be577f4d_MD5.jpg)
 
 Answer: 89.107.62.39
 
@@ -255,13 +255,13 @@ Answer: 89.107.62.39
 
 just scroll down to galaxies and it’s right there:
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/05%20MISP/ab603ca88105698cfb575b4ffbf18431_MD5.jpg)
+![](_resources/05%20MISP/ab603ca88105698cfb575b4ffbf18431_MD5.jpg)
 
 Answer: magic hound
 
 **There is a taxonomy tag set with a Certainty level of 50. Which one is it?**
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/05%20MISP/0a2160f8986f6c9147dc8f4ccfbd3892_MD5.jpg)
+![](_resources/05%20MISP/0a2160f8986f6c9147dc8f4ccfbd3892_MD5.jpg)
 
 Answer: osint
 

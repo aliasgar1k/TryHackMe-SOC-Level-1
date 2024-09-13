@@ -41,7 +41,7 @@ Read the above. >> No Answer Needed <<
 
 # Task 3 ATT&CK® Framework
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/06%20MITRE/7f8c6505857ad91e9b0ff1f1a655f4da_MD5.webp)
+![](_resources/06%20MITRE/7f8c6505857ad91e9b0ff1f1a655f4da_MD5.webp)
 
 What is the ATT&CK® framework? According to the **[website](https://attack.mitre.org/)**, “MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations.” In 2013, MITRE began to address the need to record and document common TTPs (**Tactics, Techniques, and Procedures**) that APT (**Advanced Persistent Threat**) groups used against enterprise Windows networks. This started with an internal project known as FMX (**Fort Meade Experiment**). Within this project, selected security professionals were tasked to emulated adversarial TTPs against a network, and data was collected from the attacks on this network. The gathered data helped construct the beginning pieces of what we know today as the ATT&CK® framework.
 
@@ -51,43 +51,43 @@ If you haven’t done so, navigate to the ATT&CK® [website](https://attack.mitr
 
 Direct your attention to the bottom of the page to view the **ATT&CK® Matrix for Enterprise**. Across the top of the matrix, there are 14 categories. Each category contains the techniques an adversary could use to perform the tactic. The categories cover the seven-stage Cyber Attack Lifecycle (credit Lockheed Martin for the Cyber Kill Chain).
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/06%20MITRE/6e86d590b8ae3294f8cca505630e3ea0_MD5.jpg)
+![](_resources/06%20MITRE/6e86d590b8ae3294f8cca505630e3ea0_MD5.jpg)
 
 (ATT&CK Matrix v11.2)
 
 Under **Initial Access**, there are 9 techniques. Some of the techniques have sub-techniques, such as Phishing.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/06%20MITRE/61816bab22d308f95ac7c85b1c1cfd9e_MD5.jpg)
+![](_resources/06%20MITRE/61816bab22d308f95ac7c85b1c1cfd9e_MD5.jpg)
 
 If we click on the gray bar to the right, a new layer appears listing the sub-techniques.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/06%20MITRE/7fd1578eb4aaa41d3dc81242f0c9b516_MD5.jpg)
+![](_resources/06%20MITRE/7fd1578eb4aaa41d3dc81242f0c9b516_MD5.jpg)
 
 To get a better understanding of this technique and it’s associated sub-techniques, click on Phishing.
 
 We have been directed to a page dedicated to the technique known as Phishing and all related information regarding the technique, such as a brief description, **Procedure Examples**, and **Mitigations**.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/06%20MITRE/e381484fb4d51a9a0995c6f2fd1403b8_MD5.jpg)
+![](_resources/06%20MITRE/e381484fb4d51a9a0995c6f2fd1403b8_MD5.jpg)
 
 You can alternatively resort to using the Search feature to retrieve all associated information regarding a given technique, sub-technique, and/or group.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/06%20MITRE/76f8f9dd6eacaa054b76dd5b4d9d09ae_MD5.jpg)
+![](_resources/06%20MITRE/76f8f9dd6eacaa054b76dd5b4d9d09ae_MD5.jpg)
 
 Lastly, the same data can be viewed via the **MITRE ATT&CK® Navigator**: “The ATT&CK® Navigator is designed to provide basic navigation and annotation of ATT&CK® matrices, something that people are already doing today in tools like Excel. We’ve designed it to be simple and generic — you can use the Navigator to visualize your defensive coverage, your red/blue team planning, the frequency of detected techniques, or anything else you want to do.”
 
 You can access the Navigator view when visiting a group or tool page. The ATT&CK® Navigator Layers button will be available.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/06%20MITRE/eedae56b9e25f19954341b5eb284aee0_MD5.jpg)
+![](_resources/06%20MITRE/eedae56b9e25f19954341b5eb284aee0_MD5.jpg)
 
 In the sub-menu select **view**.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/06%20MITRE/90d42b5015359a534ca0a23415832d97_MD5.jpg)
+![](_resources/06%20MITRE/90d42b5015359a534ca0a23415832d97_MD5.jpg)
 
 Let’s get acquainted with this tool. Click **[here](https://mitre-attack.github.io/attack-navigator/#layerURL=https%3A%2F%2Fattack.mitre.org%2Fgroups%2FG0008%2FG0008-enterprise-layer.json)** to view the ATT&CK® Navigator for Carbanak.
 
 At the top left, there are 3 sets of controls: **selection controls**, **layer controls**, and **technique controls**. I encourage you to inspect each of the options under each control to get familiar with them. The question mark at the far right will provide additional information regarding the navigator.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/06%20MITRE/ad3d3ba5977d3ea3d271512ee6ed83f0_MD5.jpg)
+![](_resources/06%20MITRE/ad3d3ba5977d3ea3d271512ee6ed83f0_MD5.jpg)
 
 To summarize, we can use the ATT&CK Matrix to map a threat group to their tactics and techniques. There are various methods the search can be initiated.
 
@@ -95,7 +95,7 @@ The questions below will help you become more familiar with the ATT&CK®. It is 
 
 ### Answer the questions below
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/06%20MITRE/cf5a0bca0bef5d6cd6f0fd77ee055b82_MD5.jpg)
+![](_resources/06%20MITRE/cf5a0bca0bef5d6cd6f0fd77ee055b82_MD5.jpg)
 
 # Task 4 CAR Knowledge Base
 
@@ -109,13 +109,13 @@ Let’s begin our journey by reviewing **[CAR-2020–09–001: Scheduled Task �
 
 Upon visiting the page, we’re given a brief description of the analytics and references to ATT&CK (**technique**, **sub-technique**, and **tactic**).
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/06%20MITRE/4ca5187eeed282f66243659fc4d82a4f_MD5.jpg)
+![](_resources/06%20MITRE/4ca5187eeed282f66243659fc4d82a4f_MD5.jpg)
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/06%20MITRE/becb47fed37daa93a24c0027545d5590_MD5.jpg)
+![](_resources/06%20MITRE/becb47fed37daa93a24c0027545d5590_MD5.jpg)
 
 We’re also provided with Pseudocode and a query on how to search for this specific analytic within Splunk. A pseudocode is a plain, human-readable way to describe a set of instructions or algorithms that a program or system will perform.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/06%20MITRE/10ea2d5bf306576678e5722260462779_MD5.jpg)
+![](_resources/06%20MITRE/10ea2d5bf306576678e5722260462779_MD5.jpg)
 
 Note the reference to Sysmon. If you’re not familiar with Sysmon, check out the Sysmon [room](https://tryhackme.com/room/sysmon).
 
@@ -123,13 +123,13 @@ To take full advantage of CAR, we can view the **[Full Analytic List](https://ca
 
 **Full Analytic List**
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/06%20MITRE/8ae51e6e899786d846bbb4a5454ef976_MD5.jpg)
+![](_resources/06%20MITRE/8ae51e6e899786d846bbb4a5454ef976_MD5.jpg)
 
 In the Full Analytic List view, we can see what implementations are available for any given analytic at a single glance, along with what OS platform it applies to.
 
 **CAR ATTACK Navigator**
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/06%20MITRE/826fa90a4fe07a7debc3eb3ec63199ed_MD5.jpg)
+![](_resources/06%20MITRE/826fa90a4fe07a7debc3eb3ec63199ed_MD5.jpg)
 
 (The techniques highlighted in purple are the analytics currently in CAR)
 
@@ -137,13 +137,13 @@ Let’s look at another analytic to see a different implementation, **[CAR-2014�
 
 Under Implementations, a pseudocode is provided and an EQL version of the pseudocode. EQL (pronounced as ‘equal’), and it’s an acronym for Event Query Language. EQL can be utilized to query, parse, and organize Sysmon event data. You can read more about this **[here](https://eql.readthedocs.io/en/latest/).**
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/06%20MITRE/c8546229c6734d887ffd6f383f06ebe7_MD5.jpg)
+![](_resources/06%20MITRE/c8546229c6734d887ffd6f383f06ebe7_MD5.jpg)
 
 To summarize, CAR is a great place for finding analytics that takes us further than the Mitigation and Detection summaries in the ATT&CK® framework. This tool is not a replacement for ATT&CK® but an added resource.
 
 ### Answer the questions below
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/06%20MITRE/bc855eb2a4d464e11e5be8e677379a05_MD5.jpg)
+![](_resources/06%20MITRE/bc855eb2a4d464e11e5be8e677379a05_MD5.jpg)
 
 # Task 5 MITRE Engage
 
@@ -159,7 +159,7 @@ The Engage website provides a [starter kit](https://engage.mitre.org/starter-kit
 
 As with MITRE ATT&CK, Engage has its own matrix. Below is a visual of the **Engage Matrix**.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/06%20MITRE/60f1c93d2e20788e8fe20111d63a84ae_MD5.jpg)
+![](_resources/06%20MITRE/60f1c93d2e20788e8fe20111d63a84ae_MD5.jpg)
 
 (Source: [https://engage.mitre.org](https://engage.mitre.org/))
 
@@ -177,11 +177,11 @@ You can interact with the [Engage Matrix Explorer](https://engage.mitre.org/matr
 
 Note that by default the matrix focuses on **Operate**, which entails **Expose**, **Affect**, and **Elicit**.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/06%20MITRE/7be28fc955379bf807f0f5e2c2c7fd6d_MD5.jpg)
+![](_resources/06%20MITRE/7be28fc955379bf807f0f5e2c2c7fd6d_MD5.jpg)
 
 You can click on **Prepare** or **Understand** if you wish to focus solely on that part of the matrix.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/06%20MITRE/e9b04d2ab70123deb2fbd9ca1e8ec11e_MD5.jpg)
+![](_resources/06%20MITRE/e9b04d2ab70123deb2fbd9ca1e8ec11e_MD5.jpg)
 
 That should be enough of an overview. We’ll leave it to you to explore the resources provided to you on this website.
 
@@ -189,7 +189,7 @@ Before moving on, let’s practice using this resource by answering the question
 
 ### Answer the questions below
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/06%20MITRE/8edd5c18580a7e6f67fcfb8651b5daea_MD5.jpg)
+![](_resources/06%20MITRE/8edd5c18580a7e6f67fcfb8651b5daea_MD5.jpg)
 
 # Task 6 MITRE D3FEND
 
@@ -203,11 +203,11 @@ D3FEND is still in beta and is funded by the Cybersecurity Directorate of the NS
 
 At the time of this writing, there are 408 artifacts in the D3FEND matrix. See the below image.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/06%20MITRE/44ad6721e1e34555493fe27a13849f98_MD5.jpg)
+![](_resources/06%20MITRE/44ad6721e1e34555493fe27a13849f98_MD5.jpg)
 
 Let’s take a quick look at one of the D3FENDs artifacts, such as Decoy File.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/06%20MITRE/c4bd85ac1c5b77e626998a352b64d530_MD5.jpg)
+![](_resources/06%20MITRE/c4bd85ac1c5b77e626998a352b64d530_MD5.jpg)
 
 As you can see, you’re provided with information on what is the technique (**definition**), how the technique works (**how it works**), things to think about when implementing the technique (**considerations**), and how to utilize the technique (**example**).
 
@@ -221,7 +221,7 @@ We will still encourage you to navigate the website a bit by answering the quest
 
 ### Answer the questions below
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/06%20MITRE/d88819359cc401f95bcf591eefe12bda_MD5.jpg)
+![](_resources/06%20MITRE/d88819359cc401f95bcf591eefe12bda_MD5.jpg)
 
 # Task 7 ATT&CK® Emulation Plans
 
@@ -249,7 +249,7 @@ Review the emulation plans to answer the questions below.
 
 ### Answer the questions below
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/06%20MITRE/3d21b7bb736cbfb18f0b4b9c8b9fbc38_MD5.jpg)
+![](_resources/06%20MITRE/3d21b7bb736cbfb18f0b4b9c8b9fbc38_MD5.jpg)
 
 # Task 8 ATT&CK® and Threat Intelligence
 
@@ -259,7 +259,7 @@ Review the emulation plans to answer the questions below.
 
 ### Answer the questions below
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/06%20MITRE/45466d4c602c3128613a5a38aafa0a8e_MD5.jpg)
+![](_resources/06%20MITRE/45466d4c602c3128613a5a38aafa0a8e_MD5.jpg)
 
 # Task 9 Conclusion
 

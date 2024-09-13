@@ -4,7 +4,7 @@ https://medium.com/@kofrathur/pyramid-of-pain-updated-tryhackme-walkthrough-ee07
 
 # Task 1 Introduction
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/02%20Pyramid%20of%20Pain/22e6706b1cc5e769a9685b8989634a9e_MD5.webp)
+![](_resources/02%20Pyramid%20of%20Pain/22e6706b1cc5e769a9685b8989634a9e_MD5.webp)
 
 This well-renowned concept is being applied to cybersecurity solutions like [Cisco Security](https://gblogs.cisco.com/ca/2020/08/26/the-canadian-bacon-cisco-security-and-the-pyramid-of-pain/), [SentinelOne](https://www.sentinelone.com/blog/revisiting-the-pyramid-of-pain-leveraging-edr-data-to-improve-cyber-threat-intelligence/), and [SOCRadar](https://socradar.io/re-examining-the-pyramid-of-pain-to-use-cyber-threat-intelligence-more-effectively/) to improve the effectiveness of CTI (Cyber Threat Intelligence), threat hunting, and incident response exercises.
 
@@ -14,7 +14,7 @@ Are you ready to explore what hides inside the Pyramid of Pain?
 
 ### Answer the questions below
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/02%20Pyramid%20of%20Pain/7c115991f65e129ba67e5a330ba35e3d_MD5.jpg)
+![](_resources/02%20Pyramid%20of%20Pain/7c115991f65e129ba67e5a330ba35e3d_MD5.jpg)
 
 # Task 2 Hash Values (Trivial)
 
@@ -34,13 +34,13 @@ Various online tools can be used to do hash lookups like [VirusTotal](https://ww
 
 ## VirusTotal:
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/02%20Pyramid%20of%20Pain/92a1ac6fa7b6b2c6b2d60c5203c5aa5f_MD5.jpg)
+![](_resources/02%20Pyramid%20of%20Pain/92a1ac6fa7b6b2c6b2d60c5203c5aa5f_MD5.jpg)
 
 Below the hash in the screenshot above, you can see the filename. In this case, it is “m_croetian.wnry”
 
 ## MetaDefender Cloud — OPSWAT:
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/02%20Pyramid%20of%20Pain/8d1462a3b9693127315eeba04b212d36_MD5.jpg)
+![](_resources/02%20Pyramid%20of%20Pain/8d1462a3b9693127315eeba04b212d36_MD5.jpg)
 
 As you might have noticed, it is really easy to spot a malicious file if we have the hash in our arsenal. However, as an attacker, modifying a file by even a single bit is trivial, which would produce a different hash value. With so many variations and instances of known malware or ransomware, threat hunting using file hashes as the IOC (Indicators of Compromise) can become difficult.
 
@@ -88,7 +88,7 @@ From a defense standpoint, knowledge of the IP addresses an adversary uses can b
 
 Malicious IP connections ([app.any.run](https://app.any.run/tasks/a66178de-7596-4a05-945d-704dbf6b3b90)):
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/02%20Pyramid%20of%20Pain/ab298098b6c47b3735e896e4a522a7ad_MD5.jpg)
+![](_resources/02%20Pyramid%20of%20Pain/ab298098b6c47b3735e896e4a522a7ad_MD5.jpg)
 
 **NOTE! Do not attempt to interact with the IP addresses shown above.**
 
@@ -102,7 +102,7 @@ So, the primary concept of a Fast Flux network is having multiple IP addresses a
 
 ### Answer the questions below
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/02%20Pyramid%20of%20Pain/390536f981dc6d84f8c97b2728e45ed4_MD5.jpg)
+![](_resources/02%20Pyramid%20of%20Pain/390536f981dc6d84f8c97b2728e45ed4_MD5.jpg)
 
 # Task 4 Domain Names (Simple)
 
@@ -114,13 +114,13 @@ Domain Names can be a little more of a pain for the attacker to change as they w
 
 **Malicious Sodinokibi C2 (Command and Control Infrastructure) domains:**
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/02%20Pyramid%20of%20Pain/bb20e9197fe76d199aed6da3c0c39eb5_MD5.jpg)
+![](_resources/02%20Pyramid%20of%20Pain/bb20e9197fe76d199aed6da3c0c39eb5_MD5.jpg)
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/02%20Pyramid%20of%20Pain/b20cdbff0b7ee93154bc51f554cf7163_MD5.jpg)
+![](_resources/02%20Pyramid%20of%20Pain/b20cdbff0b7ee93154bc51f554cf7163_MD5.jpg)
 
 Can you spot anything malicious in the above screenshot? Now, compare it to the legitimate website view below:
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/02%20Pyramid%20of%20Pain/ac15e025de0f0f6c90fbac3658043bcb_MD5.jpg)
+![](_resources/02%20Pyramid%20of%20Pain/ac15e025de0f0f6c90fbac3658043bcb_MD5.jpg)
 
 This is one of the examples of a Punycode attack used by the attackers to redirect users to a malicious domain that seems legitimate at first glance.
 
@@ -147,13 +147,13 @@ You can see the actual website the shortened link is redirecting you to by appen
 
 **NOTE: The examples of the shortened links below are non-existent.**
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/02%20Pyramid%20of%20Pain/a30502c0d857d1be857b3c97d0bc3a50_MD5.jpg)
+![](_resources/02%20Pyramid%20of%20Pain/a30502c0d857d1be857b3c97d0bc3a50_MD5.jpg)
 
 **Viewing Domain Names in Any.run:**
 
 Answer the questions below
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/02%20Pyramid%20of%20Pain/b6ee2fa1274c5ed380922378b0d0a880_MD5.jpg)
+![](_resources/02%20Pyramid%20of%20Pain/b6ee2fa1274c5ed380922378b0d0a880_MD5.jpg)
 
 # Task 5 Host Artifacts (Annoying)
 
@@ -165,19 +165,19 @@ Host artifacts are the traces or observables that attackers leave on the system,
 
 **Suspicious process execution from Word:**
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/02%20Pyramid%20of%20Pain/0df2eb88c155cf348a2693ffae6330eb_MD5.jpg)
+![](_resources/02%20Pyramid%20of%20Pain/0df2eb88c155cf348a2693ffae6330eb_MD5.jpg)
 
 **Suspicious events followed by opening a malicious application:**
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/02%20Pyramid%20of%20Pain/bb171f6eddde3f20f337a9f29e394cce_MD5.jpg)
+![](_resources/02%20Pyramid%20of%20Pain/bb171f6eddde3f20f337a9f29e394cce_MD5.jpg)
 
 **The files modified/dropped by the malicious actor:**
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/02%20Pyramid%20of%20Pain/8fe0f5e3d618c72c08c3cd8932fec3a5_MD5.jpg)
+![](_resources/02%20Pyramid%20of%20Pain/8fe0f5e3d618c72c08c3cd8932fec3a5_MD5.jpg)
 
 ### Answer the questions below
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/02%20Pyramid%20of%20Pain/90568983e738c843f3bfcb84880cb89a_MD5.jpg)
+![](_resources/02%20Pyramid%20of%20Pain/90568983e738c843f3bfcb84880cb89a_MD5.jpg)
 
 # Task 6 Network Artifacts (Annoying)
 
@@ -189,11 +189,11 @@ Network artifacts can be detected in Wireshark PCAPs (file that contains the pac
 
 HTTP POST requests containing suspicious strings:
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/02%20Pyramid%20of%20Pain/60dcdc2c02b1c83c089bbe2a388a06b4_MD5.jpg)
+![](_resources/02%20Pyramid%20of%20Pain/60dcdc2c02b1c83c089bbe2a388a06b4_MD5.jpg)
 
 Let’s use TShark to filter out the User-Agent strings by using the following command: tshark --Y http.request -T fields -e http.host -e http.user_agent -r analysis_file.pcap
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/02%20Pyramid%20of%20Pain/d50b6f7867e5197f999bb9e06cd086f4_MD5.jpg)
+![](_resources/02%20Pyramid%20of%20Pain/d50b6f7867e5197f999bb9e06cd086f4_MD5.jpg)
 
 These are the most common User-Agent strings found for the [Emotet Downloader Trojan](https://www.mcafee.com/blogs/other-blogs/mcafee-labs/emotet-downloader-trojan-returns-in-force/)
 
@@ -201,7 +201,7 @@ If you can detect the custom User-Agent strings that the attacker is using, you 
 
 ### Answer the questions below
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/02%20Pyramid%20of%20Pain/ac5e37033b1cf9ea1ea98fc937713a10_MD5.jpg)
+![](_resources/02%20Pyramid%20of%20Pain/ac5e37033b1cf9ea1ea98fc937713a10_MD5.jpg)
 
 # Task 7 Tools (Challenging)
 
@@ -213,11 +213,11 @@ Attackers would use the utilities to create malicious macro documents (maldocs) 
 
 **A Trojan dropped the suspicious “Stealer.exe” in the Temp folder:**
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/02%20Pyramid%20of%20Pain/666b263b08502061d8810ea99aa8ebaa_MD5.jpg)
+![](_resources/02%20Pyramid%20of%20Pain/666b263b08502061d8810ea99aa8ebaa_MD5.jpg)
 
 **The execution of the suspicious binary:**
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/02%20Pyramid%20of%20Pain/b69df53c20a62cf0bb7bf976fe4c0a35_MD5.jpg)
+![](_resources/02%20Pyramid%20of%20Pain/b69df53c20a62cf0bb7bf976fe4c0a35_MD5.jpg)
 
 Antivirus signatures, detection rules, and YARA rules can be great weapons for you to use against attackers at this stage.
 
@@ -229,11 +229,11 @@ Fuzzy hashing is also a strong weapon against the attacker’s tools. Fuzzy hash
 
 Example of SSDeep from VirusTotal:
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/02%20Pyramid%20of%20Pain/5233b18f662d92f48e524f23bca3add7_MD5.jpg)
+![](_resources/02%20Pyramid%20of%20Pain/5233b18f662d92f48e524f23bca3add7_MD5.jpg)
 
 ### Answer the questions below:
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/02%20Pyramid%20of%20Pain/8cb12ee98fa64b0193d4c3f34903a7b2_MD5.jpg)
+![](_resources/02%20Pyramid%20of%20Pain/8cb12ee98fa64b0193d4c3f34903a7b2_MD5.jpg)
 
 # Task 8 TTPs (Tough)
 
@@ -250,7 +250,7 @@ Option 2 definitely sounds less time and resource-consuming.
 
 ### Answer the questions below
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/02%20Pyramid%20of%20Pain/7bb6109a9c26103988d5dc53cfe1f642_MD5.jpg)
+![](_resources/02%20Pyramid%20of%20Pain/7bb6109a9c26103988d5dc53cfe1f642_MD5.jpg)
 
 # Task 9 Practical: The Pyramid of Pain
 
@@ -260,7 +260,7 @@ Once you are sure, submit your answer on the static site to retrieve a flag!
 
 ### Answer the questions below
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/02%20Pyramid%20of%20Pain/86ead3ed2fca2915de88fd8a8b01e34d_MD5.jpg)
+![](_resources/02%20Pyramid%20of%20Pain/86ead3ed2fca2915de88fd8a8b01e34d_MD5.jpg)
 
 # Task 10 Conclusion
 
@@ -272,4 +272,4 @@ As David Blanco states, “the amount of pain you cause an adversary depends on 
 
 ### Answer the questions below
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/02%20Pyramid%20of%20Pain/313494603cb269c2dacc7acfeb431498_MD5.jpg)
+![](_resources/02%20Pyramid%20of%20Pain/313494603cb269c2dacc7acfeb431498_MD5.jpg)

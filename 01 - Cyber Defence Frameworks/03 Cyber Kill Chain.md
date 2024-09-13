@@ -6,7 +6,7 @@ The  framework is designed for identification and prevention of the network int
 
 # Task 1 Introduction
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/6d99423b9c5a39894076263cabc29cf2_MD5.webp)
+![](_resources/03%20Cyber%20Kill%20Chain/6d99423b9c5a39894076263cabc29cf2_MD5.webp)
 
 The term **kill chain** is a military concept related to the structure of an attack. It consists of target identification, decision and order to attack the target, and finally the target destruction.
 
@@ -34,7 +34,7 @@ We will be exploring the following attack phases in this room:
 
 # Task 2 Reconnaissance
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/bdf0e12933b89497a0665d73672ce9a3_MD5.jpg)
+![](_resources/03%20Cyber%20Kill%20Chain/bdf0e12933b89497a0665d73672ce9a3_MD5.jpg)
 
 To learn what reconnaissance is from the attacker’s perspective, first, let’s define the term reconnaissance.
 
@@ -66,7 +66,7 @@ Since the answers can be found above, I won’t be posting it. You can follow al
 
 Looking at the question, it is looking for a web-based interface for OSINT. This should narrow it down, we have three choices to choose from and one is the obvious one they are asking for. Once you find it, highlight & copy (ctrl +c ) or type the answer into the TryHackMe answer field, then click submit.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/1a810d6f49724c9bf56688d3b1644133_MD5.jpg)
+![](_resources/03%20Cyber%20Kill%20Chain/1a810d6f49724c9bf56688d3b1644133_MD5.jpg)
 
 **What is the definition for the email gathering process during the stage of reconnaissance?**
 
@@ -74,11 +74,11 @@ Since the answers can be found above, I won’t be posting it. You can follow al
 
 The answer can be found in the section when you are putting yourself in the attacker’s shoes. After the scienario you should find the answer. Once you find it, highlight & copy (ctrl +c ) or type the answer into the TryHackMe answer field, then click submit.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/5555a84b61b5011e5b3ccb722ca990f4_MD5.jpg)
+![](_resources/03%20Cyber%20Kill%20Chain/5555a84b61b5011e5b3ccb722ca990f4_MD5.jpg)
 
 # Task 3 Weaponization
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/88197be0c64aa45af11830ab881c1346_MD5.jpg)
+![](_resources/03%20Cyber%20Kill%20Chain/88197be0c64aa45af11830ab881c1346_MD5.jpg)
 
 After a successful reconnaissance stage, “Megatron” would work on crafting a “weapon of destruction”. He would prefer not to interact with the victim directly and, instead, he will create a “weaponizer” that, according to Lockheed Martin, combines **malware** and **exploit** into a deliverable **payload**. Most attackers usually use automated tools to generate the malware or refer to the [DarkWeb](https://www.kaspersky.com/resource-center/threats/deep-web) to purchase the malware. More sophisticated actors or nation-sponsored APT (Advanced Persistent Threat Groups) would write their custom malware to make the malware sample unique and evade detection on the target.
 
@@ -109,11 +109,11 @@ Since the answers can be found above, I won’t be posting it. You can follow al
 
 The answer can be found in the; In the Weaponization phase, the attacker would: section. The first bullet point describes what this question is asking for. Once you find it, highlight & copy (ctrl +c ) or type the answer into the TryHackMe answer field, then click submit.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/8f4d75fca8bb993ef788a3303fc7f199_MD5.jpg)
+![](_resources/03%20Cyber%20Kill%20Chain/8f4d75fca8bb993ef788a3303fc7f199_MD5.jpg)
 
 # Task 4 Delivery
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/4a1430e7c7c77654ed0a33c1085a9eac_MD5.jpg)
+![](_resources/03%20Cyber%20Kill%20Chain/4a1430e7c7c77654ed0a33c1085a9eac_MD5.jpg)
 
 The Delivery phase is when “Megatron” decides to choose the method for transmitting the payload or the malware. He has plenty of options to choose from:
 
@@ -129,11 +129,11 @@ Since the answers can be found above, I won’t be posting it. You can follow al
 
 This answer can be found at the third bullet point, once you find it, highlight & copy (ctrl +c ) or type the answer into the TryHackMe answer field, then click submit.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/857b9eabb0f56e11901b06abda927467_MD5.jpg)
+![](_resources/03%20Cyber%20Kill%20Chain/857b9eabb0f56e11901b06abda927467_MD5.jpg)
 
 # Task 5 Exploitation
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/edb0c7f6aef298bff1a87cf77d6eb987_MD5.jpg)
+![](_resources/03%20Cyber%20Kill%20Chain/edb0c7f6aef298bff1a87cf77d6eb987_MD5.jpg)
 
 To gain access to the system, an attacker needs to exploit the vulnerability. In this phase, “Megatron” got a little bit creative — he created two phishing emails, one that contains a phishing link to a fake Office 365 login page and another one containing a macro attachment that would execute ransomware when the victim opens it. “Megatron” successfully delivered his exploits and got two victims to click on the malicious link and open the malicious file.
 
@@ -158,11 +158,11 @@ Since the answers can be found above, I won’t be posting it. You can follow al
 
 The last paragraph of the section has the answer located in it. The name also means the amount of days the vendors has to prepare for it. Once you find it, highlight & copy (ctrl +c ) or type the answer into the TryHackMe answer field, then click submit.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/d2786094b978aae3856738a51d3ac518_MD5.jpg)
+![](_resources/03%20Cyber%20Kill%20Chain/d2786094b978aae3856738a51d3ac518_MD5.jpg)
 
 # Task 6 Installation
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/5ab1dfe6999875ef9070784aa72d4cd6_MD5.jpg)
+![](_resources/03%20Cyber%20Kill%20Chain/5ab1dfe6999875ef9070784aa72d4cd6_MD5.jpg)
 
 As you have learned from the Weaponization phase, the backdoor lets an attacker bypass security measures and hide the access. A backdoor is also known as an access point.
 
@@ -187,7 +187,7 @@ Since the answers can be found above, I won’t be posting it. You can follow al
 
 The final section is where you can find this answer. Once you find it, highlight & copy (ctrl +c ) or type the answer into the TryHackMe answer field, then click submit.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/328f1e3bb9c8a694c2108b7d6ca88df3_MD5.jpg)
+![](_resources/03%20Cyber%20Kill%20Chain/328f1e3bb9c8a694c2108b7d6ca88df3_MD5.jpg)
 
 **Can you name the malicious script planted by an attacker on the webserver to maintain access to the compromised system and enables the webserver to be accessed remotely?**
 
@@ -195,11 +195,11 @@ Since the answers can be found above, I won’t be posting it. You can follow al
 
 The answer can be found in the first bulletpoint. Once you find it, highlight & copy (ctrl +c ) or type the answer into the TryHackMe answer field, then click submit.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/5571f6a0de48197fcf83b782e44188cc_MD5.jpg)
+![](_resources/03%20Cyber%20Kill%20Chain/5571f6a0de48197fcf83b782e44188cc_MD5.jpg)
 
 # Task 7 Command & Control
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/6d6981fef25a3c8272c9611e85e641a6_MD5.jpg)
+![](_resources/03%20Cyber%20Kill%20Chain/6d6981fef25a3c8272c9611e85e641a6_MD5.jpg)
 
 After getting persistence and executing the malware on the victim’s machine, “Megatron” opens up the C2 (Command and Control) channel through the malware to remotely control and manipulate the victim. This term is also known as **C&C** or **C2 Beaconing** as a type of malicious communication between a C&C server and malware on the infected host. The infected host will consistently communicate with the C2 server; that is also where the beaconing term came from.
 
@@ -220,11 +220,11 @@ Since the answers can be found above, I won’t be posting it. You can follow al
 
 This answer can be found under the two examples of the most common C2 channels used by adversaries. Once you find it, highlight & copy (ctrl +c ) or type the answer into the TryHackMe answer field, then click submit.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/e8a8e5275c41316ff7b85ef5ac107c54_MD5.jpg)
+![](_resources/03%20Cyber%20Kill%20Chain/e8a8e5275c41316ff7b85ef5ac107c54_MD5.jpg)
 
 # Task 8 Actions on Objectives (Exfiltration)
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/1de9812d06a779e7b6f723f971f994a2_MD5.jpg)
+![](_resources/03%20Cyber%20Kill%20Chain/1de9812d06a779e7b6f723f971f994a2_MD5.jpg)
 
 After going through six phases of the attack, “Megatron” can finally achieve his goals, which means taking action on the original objectives. With hands-on keyboard access, the attacker can achieve the following:
 
@@ -244,11 +244,11 @@ Since the answers can be found above, I won’t be posting it. You can follow al
 
 The answer can be found in the second to last bullet point. Once you find it, highlight & copy (ctrl +c ) or type the answer into the TryHackMe answer field, then click submit.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/3430dbbcb189f9989b1bd1ffec78ee94_MD5.jpg)
+![](_resources/03%20Cyber%20Kill%20Chain/3430dbbcb189f9989b1bd1ffec78ee94_MD5.jpg)
 
 # Task 9 Practice Analysis
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/b8eb4da4205ee558636014da98a64011_MD5.jpg)
+![](_resources/03%20Cyber%20Kill%20Chain/b8eb4da4205ee558636014da98a64011_MD5.jpg)
 
 We really hope you enjoyed this room. In order to strengthen your knowledge, let’s do a practice analysis.
 
@@ -277,87 +277,87 @@ How did the data breach happen? **Deploy the static site** attached to this task
 
 To start off you need to click the green button labeled View Site.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/caa3730d1a74875fedbdadf33717473a_MD5.jpg)
+![](_resources/03%20Cyber%20Kill%20Chain/caa3730d1a74875fedbdadf33717473a_MD5.jpg)
 
 After clicking it the screen will split and on the right side will be cyber kill chain. Next to each link is a line to fill in the blanks.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/a9a1cc48222ac222d9cab25ad42c88fb_MD5.jpg)
+![](_resources/03%20Cyber%20Kill%20Chain/a9a1cc48222ac222d9cab25ad42c88fb_MD5.jpg)
 
 You will fill in the blanks with this list given to you by TryHackMe, that was related to the Target hack of 2013.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/9e42ece40f2841b2a3feb1c2a8b9e835_MD5.jpg)
+![](_resources/03%20Cyber%20Kill%20Chain/9e42ece40f2841b2a3feb1c2a8b9e835_MD5.jpg)
 
 #### Weaponization
 
 Let us start at the top of the kill chain and work our way down. The first link we have a line to fill in is Weaponization. So the attacker needs to create a malware, here is a definition taken from the weaponization task.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/1a0b1ce8e2063baf95c0f5aaf971fd32_MD5.jpg)
+![](_resources/03%20Cyber%20Kill%20Chain/1a0b1ce8e2063baf95c0f5aaf971fd32_MD5.jpg)
 
 So with that I think that only one of these can answers thats fits is powershell.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/408d7c52997b7c0748c6d224b3bd6672_MD5.jpg)
+![](_resources/03%20Cyber%20Kill%20Chain/408d7c52997b7c0748c6d224b3bd6672_MD5.jpg)
 
 #### Delivery
 
 The next link down is Delivery, so how was the malware deliveried to the victim’s PC? Looking back at the Delivery task, it describes phishing emails as a form of delivery.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/15a48fa375d3c3377f4ceec129472a75_MD5.jpg)
+![](_resources/03%20Cyber%20Kill%20Chain/15a48fa375d3c3377f4ceec129472a75_MD5.jpg)
 
 So knowing this, the answer to the Delivery link that fits best is spearphishing attack.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/31661c76f3393ed6d87d8a067686a9ee_MD5.jpg)
+![](_resources/03%20Cyber%20Kill%20Chain/31661c76f3393ed6d87d8a067686a9ee_MD5.jpg)
 
 #### Exploitation
 
 Next link down is the Exploitation link, this link is where the attacker will exploit the malware used, or a vulnerability in the system. Here is from the exploitation task explaining one way a victim’s PC could be exploited.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/a41da7c0bd8d0393c192677e0755580a_MD5.jpg)
+![](_resources/03%20Cyber%20Kill%20Chain/a41da7c0bd8d0393c192677e0755580a_MD5.jpg)
 
 Between the exploitation task and the list only one really stands out becuase it has the work exploit in the name, exploit public-facing application. There for this best fits the answer for this link.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/f13fa0f2b040b1f98a4821259826578d_MD5.jpg)
+![](_resources/03%20Cyber%20Kill%20Chain/f13fa0f2b040b1f98a4821259826578d_MD5.jpg)
 
 #### Installation
 
 The next link of the kill chain is Installation, on this link the attacker will install backdoors to bypass security. This is also called gaining persistence, it is explained in the Installation task.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/3e1b78fa750649e7fc646c80a83019f6_MD5.jpg)
+![](_resources/03%20Cyber%20Kill%20Chain/3e1b78fa750649e7fc646c80a83019f6_MD5.jpg)
 
 The answer that best describe the installation link is, dynamic linker hijacking. This could be used that when a pc starts up and the dll runs, it will lead into the next link.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/1059d1c968bcfc3279c7e403f8594bbd_MD5.jpg)
+![](_resources/03%20Cyber%20Kill%20Chain/1059d1c968bcfc3279c7e403f8594bbd_MD5.jpg)
 
 #### Command & Control
 
 The next link down is the Command and Control link, this kill chain link refers to being used to connect the attacker to the victim’s PC.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/34a09c08eeada34506e49009c687ef00_MD5.jpg)
+![](_resources/03%20Cyber%20Kill%20Chain/34a09c08eeada34506e49009c687ef00_MD5.jpg)
 
 With two answers left one of them seems to be the better answer for this kill chain link, that is fallback channels.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/d1dcab783e58eec134807f929f613fd3_MD5.jpg)
+![](_resources/03%20Cyber%20Kill%20Chain/d1dcab783e58eec134807f929f613fd3_MD5.jpg)
 
 #### Exfiltration
 
 The last link in the cyber kill chain is Exfiltration, basically what is the attacker taking from the victim’s PC. Looking at the exfiltration task shows some of the data that can be taken or corrupted.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/425437f423bc92e5aaacfc8d2a3c0077_MD5.jpg)
+![](_resources/03%20Cyber%20Kill%20Chain/425437f423bc92e5aaacfc8d2a3c0077_MD5.jpg)
 
 With only one answer left, it perfectly fits this final piece of the cyber kill chain. Data from local system.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/10005753fb4f67d06736d831b51a6d57_MD5.jpg)
+![](_resources/03%20Cyber%20Kill%20Chain/10005753fb4f67d06736d831b51a6d57_MD5.jpg)
 
 Now that all the answers are typed into the blanks click the green Check answers button at the bottom of the cyber kill chain.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/38cef81db12b822f3d21567ebc6a85e3_MD5.jpg)
+![](_resources/03%20Cyber%20Kill%20Chain/38cef81db12b822f3d21567ebc6a85e3_MD5.jpg)
 
 The answer will pop-up in a new window in the middle of the cyber kill chain practical side. Highlight & copy (ctrl +c ) or type the answer into the TryHackMe answer field, then click submit.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/782cbeef867119d0e9a872ddd437915c_MD5.jpg)
+![](_resources/03%20Cyber%20Kill%20Chain/782cbeef867119d0e9a872ddd437915c_MD5.jpg)
 
 # Task 10 Conclusion
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/03%20Cyber%20Kill%20Chain/3c6680a0ae93303e4fadaacd95510273_MD5.jpg)
+![](_resources/03%20Cyber%20Kill%20Chain/3c6680a0ae93303e4fadaacd95510273_MD5.jpg)
 
 Cyber Kill Chain can be a great tool to improve network defence. Is it perfect and can it be the only tool to rely on? No.
 

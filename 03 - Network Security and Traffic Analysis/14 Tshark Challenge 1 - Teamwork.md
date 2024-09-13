@@ -34,13 +34,13 @@ According to VirusTotal, there is a domain marked as malicious/suspicious.
 tshark -r teamwork.pcap -T fields -e dns.qry.name | awk NF | sort | uniq | sort -nr
 ```
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/14%20Tshark%20Challenge%201%20-%20Teamwork/04c1249445a5edd8f87a337b259d6567_MD5.jpg)
+![](_resources/14%20Tshark%20Challenge%201%20-%20Teamwork/04c1249445a5edd8f87a337b259d6567_MD5.jpg)
 
 Answer: `hxxp[://]www[.]paypal[.]com4uswebappsresetaccountrecovery[.]timeseaways[.]com/`
 
 **When was the URL of the malicious/suspicious domain address first submitted to VirusTotal?**
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/14%20Tshark%20Challenge%201%20-%20Teamwork/989e133b5e83153ef40c618fe6cacece_MD5.jpg)
+![](_resources/14%20Tshark%20Challenge%201%20-%20Teamwork/989e133b5e83153ef40c618fe6cacece_MD5.jpg)
 
 Answer: `2017-04-17 22:52:53 UTC`
 
@@ -54,7 +54,7 @@ Answer: PayPal
 tshark -r teamwork.pcap -T fields -e dns.qry.name -e dns.a | sort -u
 ```
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/14%20Tshark%20Challenge%201%20-%20Teamwork/c073c054b505dd4360ea4770f90fa236_MD5.jpg)
+![](_resources/14%20Tshark%20Challenge%201%20-%20Teamwork/c073c054b505dd4360ea4770f90fa236_MD5.jpg)
 
 Answer: `184[.]154[.]127[.]226`
 
@@ -64,7 +64,7 @@ Answer: `184[.]154[.]127[.]226`
 tshark -r teamwork.pcap -Y 'http.request.method == "POST"' -T fields -e http.host -e http.request.uri -e urlencoded-form.key -e urlencoded-form.value
 ```
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/14%20Tshark%20Challenge%201%20-%20Teamwork/d671012cdbd9ef1cc07afbba2c6d8c67_MD5.jpg)
+![](_resources/14%20Tshark%20Challenge%201%20-%20Teamwork/d671012cdbd9ef1cc07afbba2c6d8c67_MD5.jpg)
 
 Answer: `johnny5alive[at]gmail[.]com`
 

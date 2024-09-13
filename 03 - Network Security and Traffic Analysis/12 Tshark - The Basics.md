@@ -22,7 +22,7 @@ We suggest completing the [**Network Fundamentals**](https://tryhackme.com/modul
 
 TShark is a text-based tool, and it is suitable for data carving, in-depth packet analysis, and automation with scripts. This strength and flexibility come out of the nature of the CLI tools, as the produced/processed data can be pipelined to additional tools. The most common tools used in packet analysis are listed below.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/12%20Tshark%20-%20The%20Basics/86128f3fa974cbdad1d32725e8142e8e_MD5.jpg)
+![](_resources/12%20Tshark%20-%20The%20Basics/86128f3fa974cbdad1d32725e8142e8e_MD5.jpg)
 
 **Note:** Sample usage of these tools is covered in the [**Zeek**](https://tryhackme.com/room/zeekbro) **room**.
 
@@ -74,7 +74,7 @@ No answer needed
 
 To find the answer just change you directory to ~/Desktop/exercise-files you will find **demo.pcapng** file then you need to run this command **capinfos demo.pcapng** after that you will find the answer
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/12%20Tshark%20-%20The%20Basics/4870f2a8f5ab5c77a905204568ce2be6_MD5.jpg)
+![](_resources/12%20Tshark%20-%20The%20Basics/4870f2a8f5ab5c77a905204568ce2be6_MD5.jpg)
 
 Answer : 6ef5f0c165a1db4a3cad3116b0c5bcc0cf6b9ab7
 
@@ -84,7 +84,7 @@ Answer : 6ef5f0c165a1db4a3cad3116b0c5bcc0cf6b9ab7
 
 TShark is a text-based (command-line) tool. Therefore, conducting an in-depth and consecutive analysis of the obtained results is easy. Multiple built-in options are ready to use to help analysts conduct such investigations. However, learning the parameters is essential; you will need the built-in options and associated parameters to keep control of the output and not be flooded with the detailed output of TShark. The most common parameters are explained in the given table below. Note that TShark requires superuser privileges to sniff live traffic and list all available interfaces.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/12%20Tshark%20-%20The%20Basics/6f7dae15e326b81ebac38e1fead1135c_MD5.jpg)
+![](_resources/12%20Tshark%20-%20The%20Basics/6f7dae15e326b81ebac38e1fead1135c_MD5.jpg)
 
 Let’s view the version info of the TShark instance in the given VM. Open the terminal and follow the given instructions.
 
@@ -139,7 +139,7 @@ Capturing on 'Loopback: lo'
 
 To find the answer just run this command **tshark -v** you will find the answer
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/12%20Tshark%20-%20The%20Basics/f75988421e164038f71f11fda8ec090a_MD5.jpg)
+![](_resources/12%20Tshark%20-%20The%20Basics/f75988421e164038f71f11fda8ec090a_MD5.jpg)
 
 Answer : 3.2.3
 
@@ -147,7 +147,7 @@ Answer : 3.2.3
 
 To find the answer just run this command **tshark -D** you will find the answer
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/12%20Tshark%20-%20The%20Basics/f4ceb6e9f2ae873ebaef20f0aa632c63_MD5.jpg)
+![](_resources/12%20Tshark%20-%20The%20Basics/f4ceb6e9f2ae873ebaef20f0aa632c63_MD5.jpg)
 
 Answer: 12
 
@@ -157,9 +157,9 @@ Answer: 12
 
 Let’s continue discovering main parameters of TShark.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/12%20Tshark%20-%20The%20Basics/a020430bc6d9d4f924c0c803d410ae3a_MD5.jpg)
+![](_resources/12%20Tshark%20-%20The%20Basics/a020430bc6d9d4f924c0c803d410ae3a_MD5.jpg)
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/12%20Tshark%20-%20The%20Basics/9a9b95a8a60ea0ad10ca007b30b83980_MD5.jpg)
+![](_resources/12%20Tshark%20-%20The%20Basics/9a9b95a8a60ea0ad10ca007b30b83980_MD5.jpg)
 
 ## Read Capture Files
 
@@ -252,7 +252,7 @@ Transmission Control Protocol, Src Port: 3372, Dst Port: 80, Seq: 0, Len: 0
 
 Verbosity provides full packet details and makes it difficult to investigate (long and complex terminal output for each packet). However, it is still helpful for in-depth packet analysis and scripting, making TShark stand out. Remember, the best utilisation time of verbosity is after filtering the packets. You can compare the above output with the below screenshot and see the scripting, carving, and correlation opportunities you have!
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/12%20Tshark%20-%20The%20Basics/44517eaf6bb24954b1b6757f4d144d09_MD5.jpg)
+![](_resources/12%20Tshark%20-%20The%20Basics/44517eaf6bb24954b1b6757f4d144d09_MD5.jpg)
 
 ### Answer the questions below
 
@@ -261,19 +261,19 @@ What are the assigned TCP flags in the 29th packet?**
 
 To find the answer just run this command **tshark -r demo.pcapng -c 29** you will find the answer
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/12%20Tshark%20-%20The%20Basics/2ad5b834177d1c9652215dfe55c090b9_MD5.jpg)
+![](_resources/12%20Tshark%20-%20The%20Basics/2ad5b834177d1c9652215dfe55c090b9_MD5.jpg)
 
 Answer : PSH, ACK
 
 **What is the “Ack” value of the 25th packet?**
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/12%20Tshark%20-%20The%20Basics/f03c9dbe230aa62ae22b74e26894cea0_MD5.jpg)
+![](_resources/12%20Tshark%20-%20The%20Basics/f03c9dbe230aa62ae22b74e26894cea0_MD5.jpg)
 
 Answer : 12421
 
 **What is the “Window size value” of the 9th packet?**
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/12%20Tshark%20-%20The%20Basics/91225f14bdceefca16907be12b157169_MD5.jpg)
+![](_resources/12%20Tshark%20-%20The%20Basics/91225f14bdceefca16907be12b157169_MD5.jpg)
 
 Answer : 9660
 
@@ -283,9 +283,9 @@ Answer : 9660
 
 As a network sniffer and packet analyser, TShark can be configured to count packets and stop at a specific point or run in a loop structure. The most common parameters are explained below.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/12%20Tshark%20-%20The%20Basics/5a4f07717b290422965a7f04bb674078_MD5.jpg)
+![](_resources/12%20Tshark%20-%20The%20Basics/5a4f07717b290422965a7f04bb674078_MD5.jpg)
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/12%20Tshark%20-%20The%20Basics/6ed8a844a790961ba99ca7e840740b6e_MD5.jpg)
+![](_resources/12%20Tshark%20-%20The%20Basics/6ed8a844a790961ba99ca7e840740b6e_MD5.jpg)
 
 Capture condition parameters only work in the “capturing/sniffing” mode. You will receive an error message if you try to read a pcap file and apply the capture condition parameters. The idea is to save the capture files in specific sizes for different purposes during live capturing. If you need to extract sorts of packets from a specific capture file, you will need to use the read&write options discussed in the previous task.
 
@@ -325,11 +325,11 @@ Answer : `y`
 
 There are two dimensions of packet filtering in TShark; live (capture) and post-capture (display) filtering. These two dimensions can be filtered with two different approaches; using a predefined syntax or Berkeley Packet Filters (BPF). TShark supports both, so you can use Wireshark filters and BPF to filter traffic. As mentioned earlier, TShark is a command-line version of Wireshark, so we will need to use different filters for capturing and filtering packets. A quick recap from the [Wireshark: Packet Operations](https://tryhackme.com/r/room/wiresharkpacketoperations) room:
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/12%20Tshark%20-%20The%20Basics/a01c29497daa26502c8ce203964d31a4_MD5.jpg)
+![](_resources/12%20Tshark%20-%20The%20Basics/a01c29497daa26502c8ce203964d31a4_MD5.jpg)
 
 Capture filters are used to have a specific type of traffic in the capture file rather than having everything. Capture filters have limited filtering features, and the purpose is to implement a scope by range, protocol, and direction filtering. This might sound like bulk/raw filtering, but it still provides organised capture files with reasonable file size. The display filters investigate the capture files in-depth without modifying the packet.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/12%20Tshark%20-%20The%20Basics/1323f5f726dc13012ba9936ddd0397d4_MD5.jpg)
+![](_resources/12%20Tshark%20-%20The%20Basics/1323f5f726dc13012ba9936ddd0397d4_MD5.jpg)
 
 Check out the [**Wireshark: Packet Operations**](https://tryhackme.com/room/wiresharkpacketoperations) room (Task 4 & 5) if you want to review the principles of packet filtering.
 
@@ -349,11 +349,11 @@ Answer : `-Y`
 
 Wireshark’s capture filter syntax is used here. The basic syntax for the Capture/BPF filter is shown below. You can read more on capture filter syntax [here](https://www.wireshark.org/docs/man-pages/pcap-filter.html) and [here](https://gitlab.com/wireshark/wireshark/-/wikis/CaptureFilters#useful-filters). Boolean operators can also be used in both types of filters.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/12%20Tshark%20-%20The%20Basics/758c0c10808b2da95d34cf501cf3f17e_MD5.jpg)
+![](_resources/12%20Tshark%20-%20The%20Basics/758c0c10808b2da95d34cf501cf3f17e_MD5.jpg)
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/12%20Tshark%20-%20The%20Basics/574f12dae3f6c8f33c2a51b67d352f8b_MD5.jpg)
+![](_resources/12%20Tshark%20-%20The%20Basics/574f12dae3f6c8f33c2a51b67d352f8b_MD5.jpg)
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/12%20Tshark%20-%20The%20Basics/afc1f3e52c32b7d2739e0d37bdf0728b_MD5.jpg)
+![](_resources/12%20Tshark%20-%20The%20Basics/afc1f3e52c32b7d2739e0d37bdf0728b_MD5.jpg)
 
 We need to create traffic noise to test and simulate capture filters. We will use the “terminator” terminal instance to have a split-screen view in a single terminal. The “terminator” will help you craft and sniff packets using a single terminal interface. Now, run the `terminator` command and follow the instructions using the new terminal instance.
 
@@ -395,11 +395,11 @@ user@ubuntu$ curl -v 10.10.10.10
 
 Being comfortable with the command line and TShark filters requires time and practice. You can use the below table to practice TShark capture filters.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/12%20Tshark%20-%20The%20Basics/990b333bd523a1fafa1711b1295a8e7c_MD5.jpg)
+![](_resources/12%20Tshark%20-%20The%20Basics/990b333bd523a1fafa1711b1295a8e7c_MD5.jpg)
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/12%20Tshark%20-%20The%20Basics/9571668fa8ca894d7234cdd962e65300_MD5.jpg)
+![](_resources/12%20Tshark%20-%20The%20Basics/9571668fa8ca894d7234cdd962e65300_MD5.jpg)
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/12%20Tshark%20-%20The%20Basics/1723017fb8ee8b818ae4c50fd5d296c7_MD5.jpg)
+![](_resources/12%20Tshark%20-%20The%20Basics/1723017fb8ee8b818ae4c50fd5d296c7_MD5.jpg)
 
 ### Answer the questions below
 
@@ -409,7 +409,7 @@ Run the commands from the above Terminator terminals on the target machine and a
 
 To find the answer just run this command on **terminal 1 tshark -f “host 10.10.10.10”** now on the **terminal 2** run this command **curl -v 10.10.10.10** now the packets gets captured on the terminal 1 and now you will need to count the number of SYN packets you will find the answer
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/12%20Tshark%20-%20The%20Basics/514e9ece8a63a6213abcada42ba78b85_MD5.jpg)
+![](_resources/12%20Tshark%20-%20The%20Basics/514e9ece8a63a6213abcada42ba78b85_MD5.jpg)
 
 Answer : 2
 
@@ -433,9 +433,9 @@ Wireshark’s display filter syntax is used here. You can use the official [**Di
 
 **Note:** Using single quotes for capture filters is recommended to avoid space and bash expansion problems. Once again, you can check the [**Wireshark: Packet Operations**](https://tryhackme.com/room/wiresharkpacketoperations) room (Task 4 & 5) if you want to review the principles of packet filtering.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/12%20Tshark%20-%20The%20Basics/345fcd8daff1e8a7c1d545f6d7a775b2_MD5.jpg)
+![](_resources/12%20Tshark%20-%20The%20Basics/345fcd8daff1e8a7c1d545f6d7a775b2_MD5.jpg)
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/12%20Tshark%20-%20The%20Basics/433e1ea3e47d2c5969f2ad59a635f554_MD5.jpg)
+![](_resources/12%20Tshark%20-%20The%20Basics/433e1ea3e47d2c5969f2ad59a635f554_MD5.jpg)
 
 We will use the “demo.pcapng” to test display filters. Let’s see the filters in action!
 
@@ -495,7 +495,7 @@ To find the answer you need to run this command **tshark -r demo.pcapng -Y “ip
 
 Answer : 20
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/12%20Tshark%20-%20The%20Basics/43241fceea48c79079c468701bfbef32_MD5.jpg)
+![](_resources/12%20Tshark%20-%20The%20Basics/43241fceea48c79079c468701bfbef32_MD5.jpg)
 
 **Rerun the previous query and look at the output. What is the packet number of the “Duplicate” packet?**
 

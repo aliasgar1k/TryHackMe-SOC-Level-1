@@ -21,7 +21,7 @@ Three important points when using Wireshark-like features:
 - TShark explains the parameters used at the beginning of the output line.
     - For example, you will use the `phs` option to view the protocol hierarchy. Once you use this command, the result will start with the "Packet Hierarchy Statistics" header.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/f65bc1c9d18e7bce3dc6bc84f36f9f6a_MD5.jpeg)
+![](_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/f65bc1c9d18e7bce3dc6bc84f36f9f6a_MD5.jpeg)
 
 ## Colourised Output
 
@@ -31,7 +31,7 @@ TShark can provide colourised outputs to help analysts speed up the analysis and
 user@ubuntu$ tshark -r colour.pcap --color  
 ```
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/b49db8f3ceb477b23acbefa17b94eae6_MD5.jpg)
+![](_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/b49db8f3ceb477b23acbefa17b94eae6_MD5.jpg)
 
 ## Statistics | Protocol Hierarchy
 
@@ -105,7 +105,7 @@ The endpoint statistics view helps analysts to overview the unique endpoints. It
 
 Filters for the most common viewing options are explained below.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/2157617f5cfea7e0dd47653c595b954c_MD5.jpeg)
+![](_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/2157617f5cfea7e0dd47653c595b954c_MD5.jpeg)
 
 ```bash
 user@ubuntu$ tshark -r demo.pcapng -z endpoints,ip -q
@@ -171,7 +171,7 @@ Chats (8)
 tshark -r write-demo.pcap -z io,phs -q
 ```
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/a46ebfeeeeac0c944d8a9628688a753a_MD5.jpg)
+![](_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/a46ebfeeeeac0c944d8a9628688a753a_MD5.jpg)
 
 Answer: 62
 
@@ -181,7 +181,7 @@ Answer: 62
 tshark -r write-demo.pcap -z plen,tree -q
 ```
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/d053f489ac7ff6fccd4b2a445d15d090_MD5.jpg)
+![](_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/d053f489ac7ff6fccd4b2a445d15d090_MD5.jpg)
 
 Answer: 40-79
 
@@ -191,7 +191,7 @@ Answer: 40-79
 tshark -r write-demo.pcap -z expert -q
 ```
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/11a12c83770ec2667ec169e2461d82be_MD5.jpg)
+![](_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/11a12c83770ec2667ec169e2461d82be_MD5.jpg)
 
 Answer: Connection establish request (SYN): server port 80
 
@@ -201,7 +201,7 @@ Answer: Connection establish request (SYN): server port 80
 tshark -r demo.pcapng -z conv,ip -q
 ```
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/2decf126a4870e0c73f662aebc0896f7_MD5.jpg)
+![](_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/2decf126a4870e0c73f662aebc0896f7_MD5.jpg)
 
 Answer: `145[.]254[.]160[.]237`
 
@@ -344,7 +344,7 @@ Total HTTP Packets      4                                                       
 tshark -r demo.pcapng -z ip_hosts,tree -q -q
 ```
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/48bf21fb980f217e74e5159cba6548fd_MD5.jpg)
+![](_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/48bf21fb980f217e74e5159cba6548fd_MD5.jpg)
 
 Answer: `216[.]239[.]59[.]99`
 
@@ -354,7 +354,7 @@ Answer: `216[.]239[.]59[.]99`
 tshark -r demo.pcapng -z ip_srcdst,tree -q -q
 ```
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/2ead4af9cdefb89685eb1df57ddb786b_MD5.jpg)
+![](_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/2ead4af9cdefb89685eb1df57ddb786b_MD5.jpg)
 
 Answer: 6.98%
 
@@ -368,7 +368,7 @@ Answer: `145[.]253[.]2[.]203`
 tshark -r demo.pcapng -z dns,tree -q -q | grep "Qname"
 ```
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/470eb28fea6c98c312f6a656fd7b8ff8_MD5.jpg)
+![](_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/470eb28fea6c98c312f6a656fd7b8ff8_MD5.jpg)
 
 Answer: 29.00
 
@@ -380,7 +380,7 @@ There are plenty of filters designed for multiple purposes. The common filtering
 
 This option helps analysts to follow traffic streams similar to Wireshark. The query structure is explained in the table given below.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/ccd3c3350839313a334741f2a161b252_MD5.jpeg)
+![](_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/ccd3c3350839313a334741f2a161b252_MD5.jpeg)
 
 Note: Streams start from "0". You can filter the packets and follow the streams by using the parameters given below.
 
@@ -418,7 +418,7 @@ Date: Thu, 13 May 2004 10:17:14 GMT
 
 This option helps analysts to extract files from DICOM, HTTP, IMF, SMB and TFTP. The query structure is explained in the table given below.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/ec5deed6039588d73252c8f30233f7ed_MD5.jpeg)
+![](_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/ec5deed6039588d73252c8f30233f7ed_MD5.jpeg)
 
 You can filter the packets and follow the streams by using the parameters given below.
 
@@ -467,7 +467,7 @@ Packet     Protocol         Username         Info
 tshark -r demo.pcapng -z follow,udp,ascii,0 -q
 ```
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/7b357a0e4b0ec1a66d1d482bb6ecc42d_MD5.jpg)
+![](_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/7b357a0e4b0ec1a66d1d482bb6ecc42d_MD5.jpg)
 
 Answer: `145[.]254[.]160[.]237:3009`
 
@@ -477,7 +477,7 @@ Answer: `145[.]254[.]160[.]237:3009`
 tshark -r demo.pcapng -z follow,http,ascii,1 -q
 ```
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/9d54445d301f474888d626708257b3e4_MD5.jpg)
+![](_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/9d54445d301f474888d626708257b3e4_MD5.jpg)
 
 Answer: `hxxp[://]www[.]ethereal[.]com/download[.]html`
 
@@ -487,9 +487,9 @@ Answer: `hxxp[://]www[.]ethereal[.]com/download[.]html`
 tshark -r credentials.pcap -z credentials -q | nl
 ```
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/4dc3d0dfa508689298c81fec9b278343_MD5.jpg)
+![](_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/4dc3d0dfa508689298c81fec9b278343_MD5.jpg)
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/74423617108f308ae90ed0af05a4a7c7_MD5.jpg)
+![](_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/74423617108f308ae90ed0af05a4a7c7_MD5.jpg)
 
 By excluding the first 3 lines and the last line, we get 75
 
@@ -501,7 +501,7 @@ Accomplishing in-depth packet analysis sometimes ends up with a special filterin
 
 A quick recap from the [Wireshark: Packet Operations](https://tryhackme.com/room/wiresharkpacketoperations) room:
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/6f270b707c1bc8e75892693a6ada2679_MD5.jpeg)
+![](_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/6f270b707c1bc8e75892693a6ada2679_MD5.jpeg)
 
 Note: The "contains" and "matches" operators cannot be used with fields consisting of "integer" values.
 
@@ -511,7 +511,7 @@ Tip: Using HEX and regex values instead of ASCII always has a better chance of a
 
 This option helps analysts to extract specific parts of data from the packets. In this way, analysts have the opportunity to collect and correlate various fields from the packets. It also helps analysts manage the query output on the terminal. The query structure is explained in the table given below.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/887fa51e746d6149094ab0040a7f1842_MD5.jpeg)
+![](_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/887fa51e746d6149094ab0040a7f1842_MD5.jpeg)
 
 Note: You need to use the -e parameter for each field you want to display.
 
@@ -531,7 +531,7 @@ ip.src	ip.dst
 
 ## Filter: "contains"
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/c3646d11c16318e6880b1eeb768b3c6a_MD5.jpeg)
+![](_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/c3646d11c16318e6880b1eeb768b3c6a_MD5.jpeg)
 
 ```bash
 user@ubuntu$ tshark -r demo.pcapng -Y 'http.server contains "Apache"'
@@ -544,7 +544,7 @@ ip.src	ip.dst	http.server
 
 ## Filter: "matches"
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/6b43e0ff534294f963abcbcd003c984d_MD5.jpeg)
+![](_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/6b43e0ff534294f963abcbcd003c984d_MD5.jpeg)
 
 ```bash
 user@ubuntu$ tshark -r demo.pcapng -Y 'http.request.method matches "(GET|POST)"'               
@@ -565,7 +565,7 @@ ip.src	ip.dst	http.request.method
 tshark -r demo.pcapng -Y 'http.server contains "CAFE"'
 ```
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/9f3bf658c4ad241b7bf1dfbf604389fa_MD5.jpg)
+![](_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/9f3bf658c4ad241b7bf1dfbf604389fa_MD5.jpg)
 
 Answer: 27
 
@@ -575,7 +575,7 @@ Answer: 27
 tshark -r demo.pcapng -Y 'http.request.method matches "(GET|POST)"' -T fields -e frame.time -E header=y
 ```
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/11d8239e4299fb48412d1fe57372b537_MD5.jpg)
+![](_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/11d8239e4299fb48412d1fe57372b537_MD5.jpg)
 
 Answer: `May 13, 2004 10:17:08.222534000 UTC`
 
@@ -613,7 +613,7 @@ user@ubuntu$ tshark -r hostnames.pcapng -T fields -e dhcp.option.hostname | awk 
 
 Now the output is organised and ready to process/use. The logic of the query is explained below.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/64284f833968a97f44c27667cf1db795_MD5.jpeg)
+![](_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/64284f833968a97f44c27667cf1db795_MD5.jpeg)
 
 ## Extract DNS Queries
 
@@ -650,7 +650,7 @@ user@ubuntu$ tshark -r user-agents.pcap -T fields -e http.user_agent | awk NF | 
 tshark -r hostnames.pcapng -T fields -e dhcp.option.hostname | sort | uniq | awk NF | wc -l
 ```
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/9f099ba81d6a207ec0b9cd28c724b945_MD5.jpg)
+![](_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/9f099ba81d6a207ec0b9cd28c724b945_MD5.jpg)
 
 Answer: 30
 
@@ -660,7 +660,7 @@ Answer: 30
 tshark -r hostnames.pcapng -T fields -e dhcp.option.hostname | sort | awk NF | grep "prus-pc" | wc -l
 ```
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/1907bde9ab4aff3103e4a089ed15ebe7_MD5.jpg)
+![](_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/1907bde9ab4aff3103e4a089ed15ebe7_MD5.jpg)
 
 Answer: 12
 
@@ -670,7 +670,7 @@ Answer: 12
 tshark -r dns-queries.pcap -T fields -e dns.qry.name | awk NF | sort -r | uniq -c | sort -r
 ```
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/569944a8665cbf18f430e763ea91ac13_MD5.jpg)
+![](_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/569944a8665cbf18f430e763ea91ac13_MD5.jpg)
 
 Answer: 472
 
@@ -680,7 +680,7 @@ Answer: 472
 tshark -r user-agents.pcap -T fields -e http.user_agent | awk NF | sort -r | uniq -c | sort -r | grep "Wfuzz"
 ```
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/f288fa16721ed4ca2d1f460ee8364d7e_MD5.jpg)
+![](_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/f288fa16721ed4ca2d1f460ee8364d7e_MD5.jpg)
 
 Answer: 12
 
@@ -690,7 +690,7 @@ Answer: 12
 tshark -r user-agents.pcap -T fields -e http.user_agent -e http.host | awk NF | sort | uniq -c | sort -r | grep "nmap"
 ```
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/347936a4efafc8f0857da0182351c653_MD5.jpg)
+![](_resources/13%20Tshark%20-%20CLI%20Wireshark%20Features/347936a4efafc8f0857da0182351c653_MD5.jpg)
 
 Answer: `172[.]16[.]172[.]129`
 

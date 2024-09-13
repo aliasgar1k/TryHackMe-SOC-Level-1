@@ -1,6 +1,6 @@
 https://www.youtube.com/watch?v=F68zMPAdz-8
 
-![[02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/e69e197bfbbef5dfc2c92896a8e93bd7_MD5.jpg]]
+![[_resources/02 Threat Intelligence Tools/e69e197bfbbef5dfc2c92896a8e93bd7_MD5.jpg|02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/e69e197bfbbef5dfc2c92896a8e93bd7_MD5.jpg]]
 
 # Task 1 Room Outline
 
@@ -31,7 +31,7 @@ To mitigate against risks, we can start by trying to answer a few simple questio
 
 # Threat Intelligence Classifications:
 
-![[02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/555042a0fc888efaf4a4cece752ad7ab_MD5.jpg]]
+![[_resources/02 Threat Intelligence Tools/555042a0fc888efaf4a4cece752ad7ab_MD5.jpg|02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/555042a0fc888efaf4a4cece752ad7ab_MD5.jpg]]
 
 Threat Intel is geared towards understanding the relationship between your operational environment and your adversary. With this in mind, we can break down threat intel into the following classifications:
 
@@ -54,7 +54,7 @@ When a URL is submitted, the information recorded includes the domains and IP ad
 
 The site provides two views, the first one showing the most recent scans performed and the second one showing current live scans.
 
-![[02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/90b2b9b04c30fb0f850b483bf8268184_MD5.gif]]
+![[_resources/02 Threat Intelligence Tools/90b2b9b04c30fb0f850b483bf8268184_MD5.gif|02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/90b2b9b04c30fb0f850b483bf8268184_MD5.gif]]
 
 ## Scan Results
 
@@ -67,13 +67,13 @@ URL scan results provide ample information, with the following key areas being e
 - **Behaviour:** Provides details of the variables and cookies found on the site. These may be useful in identifying the frameworks used in developing the site.
 - **Indicators:** Lists all IPs, domains and hashes associated with the site. These indicators do not imply malicious activity related to the site.
 
-![[02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/ae49079ac74f898f942e689259353e25_MD5.gif]]
+![[_resources/02 Threat Intelligence Tools/ae49079ac74f898f942e689259353e25_MD5.gif|02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/ae49079ac74f898f942e689259353e25_MD5.gif]]
 
 ## Scenario
 
 You have been tasked to perform a scan on TryHackMe’s domain. The results obtained are displayed in the image below. Use the details on the image to answer the questions:
 
-![[02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/8066bcec78e6299f7858b8d8b662ad2d_MD5.jpg]]
+![[_resources/02 Threat Intelligence Tools/8066bcec78e6299f7858b8d8b662ad2d_MD5.jpg|02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/8066bcec78e6299f7858b8d8b662ad2d_MD5.jpg]]
 
 
 ### Answer the questions below
@@ -109,7 +109,7 @@ As the name suggests, this project is an all in one malware collection and analy
 - **Malware Samples Upload:** Security analysts can upload their malware samples for analysis and build the intelligence database. This can be done through the browser or an API.
 - **Malware Hunting:** Hunting for malware samples is possible through setting up alerts to match various elements such as tags, signatures, YARA rules, ClamAV signatures and vendor detection.
 
-![[02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/f83769d86a544618a957e3bb57d87e7b_MD5.gif]]
+![[_resources/02 Threat Intelligence Tools/f83769d86a544618a957e3bb57d87e7b_MD5.gif|02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/f83769d86a544618a957e3bb57d87e7b_MD5.gif]]
 
 ## [FeodoTracker](https://feodotracker.abuse.ch)
 
@@ -121,7 +121,7 @@ Abuse.ch developed this tool to identify and detect malicious SSL connections. F
 
 You can browse through the SSL certificates and JA3 fingerprints lists or download them to add to your deny list or threat hunting rulesets.
 
-![[02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/4ed63165f12f56ed1346cd9b35c8104d_MD5.gif]]
+![[_resources/02 Threat Intelligence Tools/4ed63165f12f56ed1346cd9b35c8104d_MD5.gif|02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/4ed63165f12f56ed1346cd9b35c8104d_MD5.gif]]
 
 ## [URLhaus](https://urlhaus.abuse.ch)
 
@@ -129,13 +129,13 @@ As the name points out, this tool focuses on sharing malicious URLs used for mal
 
 The tool also provides feeds associated with country, AS number and Top Level Domain that an analyst can generate based on specific search needs.
 
-![[02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/586b06194c8682c83c09fb6ebed03685_MD5.gif]]
+![[_resources/02 Threat Intelligence Tools/586b06194c8682c83c09fb6ebed03685_MD5.gif|02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/586b06194c8682c83c09fb6ebed03685_MD5.gif]]
 
 ## [ThreatFox](https://threatfox.abuse.ch)
 
 With ThreatFox, security analysts can search for, share and export indicators of compromise associated with malware. IOCs can be exported in various formats such as MISP events, Suricata IDS Ruleset, Domain Host files, DNS Response Policy Zone, JSON files and CSV files.
 
-![[02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/9cd16cf911acf7c650bf39a5b3dbcfba_MD5.gif]]
+![[_resources/02 Threat Intelligence Tools/9cd16cf911acf7c650bf39a5b3dbcfba_MD5.gif|02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/9cd16cf911acf7c650bf39a5b3dbcfba_MD5.gif]]
 
 ### Answer the questions below
 
@@ -187,7 +187,7 @@ We are presented with an upload file screen from the Analysis tab on login. Here
 - **History:** Lists all submissions made with their resolutions.
 - **In-tray:** An Enterprise feature used to receive and process phish reports posted by team members through integrating Google Workspace and Microsoft 365.
 
-![[02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/4d6bb6518d275ee3d47c210e4e80ee6d_MD5.jpg]]
+![[_resources/02 Threat Intelligence Tools/4d6bb6518d275ee3d47c210e4e80ee6d_MD5.jpg|02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/4d6bb6518d275ee3d47c210e4e80ee6d_MD5.jpg]]
 
 ## Analysis Tab
 
@@ -202,11 +202,11 @@ Once uploaded, we are presented with the details of our email for a more in-dept
 
 We can further perform lookups and flag indicators as malicious from these options. On the right-hand side of the screen, we are presented with the Plaintext and Source details of the email.
 
-![[02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/91c77969c99a760cad518c81f681e796_MD5.gif]]
+![[_resources/02 Threat Intelligence Tools/91c77969c99a760cad518c81f681e796_MD5.gif|02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/91c77969c99a760cad518c81f681e796_MD5.gif]]
 
 Above the **Plaintext** section, we have a **Resolve** checkmark. Here, we get to perform the resolution of our analysis by classifying the email, setting up flagged artefacts and setting the classification codes. Once the email has been classified, the details will appear on the **Resolution** tab on the analysis of the email.
 
-![[02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/c2931ea59a39208717085ecc7add9a5a_MD5.gif]]
+![[_resources/02 Threat Intelligence Tools/c2931ea59a39208717085ecc7add9a5a_MD5.gif|02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/c2931ea59a39208717085ecc7add9a5a_MD5.gif]]
 
 ## Scenario:
 
@@ -246,7 +246,7 @@ More information about Cisco Talos can be found on their [White Paper](https://w
 
 ## Talos Dashboard
 
-![[02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/0c839851da653b6c33f51caafa6f21e9_MD5.jpg]]
+![[_resources/02 Threat Intelligence Tools/0c839851da653b6c33f51caafa6f21e9_MD5.jpg|02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/0c839851da653b6c33f51caafa6f21e9_MD5.jpg]]
 
 Accessing the open-source solution, we are first presented with a reputation lookup dashboard with a world map. This map shows an overview of email traffic with indicators of whether the emails are legitimate, spam or malware across numerous countries. Clicking on any marker, we see more information associated with IP and hostname addresses, volume on the day and the type.
 
@@ -254,13 +254,13 @@ At the top, we have several tabs that provide different types of intelligence re
 
 - **Vulnerability Information:** Disclosed and zero-day vulnerability reports marked with CVE numbers and CVSS scores. Details of the vulnerabilities reported are provided when you select a specific report, including the timeline taken to get the report published. Microsoft vulnerability advisories are also provided, with the applicable snort rules that can be used.
 
-![[02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/16f881308a9418ab05081db8a5d1fd6a_MD5.gif]]
+![[_resources/02 Threat Intelligence Tools/16f881308a9418ab05081db8a5d1fd6a_MD5.gif|02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/16f881308a9418ab05081db8a5d1fd6a_MD5.gif]]
 
 - **Reputation Center:** Provides access to searchable threat data related to IPs and files using their SHA256 hashes. Analysts would rely on these options to conduct their investigations. Additional email and spam data can be found under the **Email & Spam Data tab**.
 
-![[02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/5b35da9372fec961ca4ad494b0033a92_MD5.gif]]
+![[_resources/02 Threat Intelligence Tools/5b35da9372fec961ca4ad494b0033a92_MD5.gif|02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/5b35da9372fec961ca4ad494b0033a92_MD5.gif]]
 
-![[02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/0f3e5e7d7a61d141c2d255bf10f36dc9_MD5.gif]]
+![[_resources/02 Threat Intelligence Tools/0f3e5e7d7a61d141c2d255bf10f36dc9_MD5.gif|02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/0f3e5e7d7a61d141c2d255bf10f36dc9_MD5.gif]]
 
 ## Task
 
@@ -276,7 +276,7 @@ Use the .eml file you’ve downloaded in the previous task, PhishTool, to answer
 
 # Task 7 Scenario 1
 
-![[02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/5b71e46d5a9d9a897f5d69631479b523_MD5.jpg]]
+![[_resources/02 Threat Intelligence Tools/5b71e46d5a9d9a897f5d69631479b523_MD5.jpg|02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/5b71e46d5a9d9a897f5d69631479b523_MD5.jpg]]
 
 **Scenario:** You are a SOC Analyst. Several suspicious emails have been forwarded to you from other coworkers. You must obtain details from each email to triage the incidents reported.
 
@@ -293,7 +293,7 @@ here's my hint for this, you'll thank me later ;) 435bfc4c3a3c887fd39c058e8c1186
 
 # Task 8 Scenario 2
 
-![[02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/5b71e46d5a9d9a897f5d69631479b523_MD5.jpg]]
+![[_resources/02 Threat Intelligence Tools/5b71e46d5a9d9a897f5d69631479b523_MD5.jpg|02 - Cyber Threat Intelligence/_resources/02 Threat Intelligence Tools/5b71e46d5a9d9a897f5d69631479b523_MD5.jpg]]
 
 **Scenario:** You are a SOC Analyst. Several suspicious emails have been forwarded to you from other coworkers. You must obtain details from each email to triage the incidents reported.
 

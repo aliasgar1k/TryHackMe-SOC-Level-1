@@ -4,7 +4,7 @@ https://medium.com/@jcm3/junior-security-analyst-intro-tryhackme-walkthrough-b66
 
 # Task 1 A career as a Junior (Associate) Security Analyst
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/01%20Junior%20Security%20Analyst%20Intro/c731e402beb5c65a7ac3df11b2c9b88c_MD5.webp)
+![](_resources/01%20Junior%20Security%20Analyst%20Intro/c731e402beb5c65a7ac3df11b2c9b88c_MD5.webp)
 
 In the Junior Security Analyst role, you will be a Triage Specialist. You will spend a lot of time triaging or monitoring the event logs and alerts.
 
@@ -30,15 +30,15 @@ As you progress and advance your skills as a Junior Security Analyst, you will e
 
 An overview of the Security Operations Center (SOC) Three-Tier Model:
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/01%20Junior%20Security%20Analyst%20Intro/179e59228a29d20bc32253b2217a887e_MD5.jpg)
+![](_resources/01%20Junior%20Security%20Analyst%20Intro/179e59228a29d20bc32253b2217a887e_MD5.jpg)
 
 ### Answer the questions below
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/01%20Junior%20Security%20Analyst%20Intro/144b28a7fe814c0937b3c9c48d791445_MD5.jpg)
+![](_resources/01%20Junior%20Security%20Analyst%20Intro/144b28a7fe814c0937b3c9c48d791445_MD5.jpg)
 
 # Task 2 Security Operations Center (SOC)
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/01%20Junior%20Security%20Analyst%20Intro/a5eb259bcd86536e2f9a7d200abcf891_MD5.jpg)
+![](_resources/01%20Junior%20Security%20Analyst%20Intro/a5eb259bcd86536e2f9a7d200abcf891_MD5.jpg)
 
 ## **So, what exactly is a SOC?**
 
@@ -46,7 +46,7 @@ The core function of a SOC (Security Operations Center) is to investigate, monit
 
 ## **What is included in the responsibilities of the SOC?**
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/01%20Junior%20Security%20Analyst%20Intro/21239ecde1b0cab57a5faf714c0aa4f5_MD5.jpg)
+![](_resources/01%20Junior%20Security%20Analyst%20Intro/21239ecde1b0cab57a5faf714c0aa4f5_MD5.jpg)
 
 ### **Preparation and Prevention**
 
@@ -68,11 +68,11 @@ After the investigation, the SOC team coordinates and takes action on the compro
 
 ### Answer the questions below 
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/01%20Junior%20Security%20Analyst%20Intro/6ac8ec314af70b6b11bc09597e61e83c_MD5.jpg)
+![](_resources/01%20Junior%20Security%20Analyst%20Intro/6ac8ec314af70b6b11bc09597e61e83c_MD5.jpg)
 
 # Task 3 A day In the life of a Junior (Associate) Security Analyst
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/01%20Junior%20Security%20Analyst%20Intro/2025feb27de86cd54d517067f134d2f7_MD5.jpg)
+![](_resources/01%20Junior%20Security%20Analyst%20Intro/2025feb27de86cd54d517067f134d2f7_MD5.jpg)
 
 To understand the job responsibilities for a Junior (Associate) Security Analyst, let us first show you what a day in the life of the Junior Security Analyst looks like and why this is an exciting career journey.
 
@@ -86,4 +86,4 @@ Are you ready to immerse yourself into the role of a Junior Security Analyst for
 
 ### Answer the questions below 
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/01%20Junior%20Security%20Analyst%20Intro/7704c2a946cfb2261156b4ce55a7b553_MD5.jpg)
+![](_resources/01%20Junior%20Security%20Analyst%20Intro/7704c2a946cfb2261156b4ce55a7b553_MD5.jpg)

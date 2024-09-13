@@ -5,7 +5,7 @@ https://www.youtube.com/watch?v=fyxuL_t77tU
 
 Learn the applications and language that is Yara for everything threat intelligence, forensics, and threat hunting!
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/a6e015b83e62e23ff2770e4f14f39440_MD5.jpeg)
+![](_resources/03%20Yara/a6e015b83e62e23ff2770e4f14f39440_MD5.jpeg)
 # Task 1 Introduction
 
 This room will expect you to understand basic Linux familiarity, such as installing software and commands for general navigation of the system. Moreso, this room isn’t designed to test your knowledge or for point-scoring. It is here to encourage you to follow along and experiment with what you have learned here.
@@ -24,7 +24,7 @@ Rules are used to label these patterns. For example, Yara rules are frequently w
 
 For example, the code snippet below prints “Hello World” in Python. The text “Hello World” would be stored as a string.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/af55a063af17e9f4c62954bd7215269c_MD5.jpeg)
+![](_resources/03%20Yara/af55a063af17e9f4c62954bd7215269c_MD5.jpeg)
 
 We could write a Yara rule to search for “hello world” in every program on our operating system if we would like.
 
@@ -32,7 +32,7 @@ Why does Malware use Strings?
 
 Malware, just like our “Hello World” application, uses strings to store textual data. Here are a few examples of the data that various malware types store within strings:
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/bd9a0eaa4cb7299c98a8fe8e9cd980f9_MD5.jpeg)
+![](_resources/03%20Yara/bd9a0eaa4cb7299c98a8fe8e9cd980f9_MD5.jpeg)
 ## Caveat: Malware Analysis
 
 Explaining the functionality of malware is vastly out of scope for this room due to the sheer size of the topic. I have covered strings in much more detail in “Task 12 — Strings” of my [MAL: Introductory room](https://tryhackme.com/room/malmalintroductory). In fact, I am creating a whole Learning Path for it. If you’d like to get a taster whilst learning the fundamentals, I’d recommend my room.
@@ -44,12 +44,12 @@ The answers can be found above, follow along to help you locate them if you are 
 **What is the name of the base-16 numbering system that Yara can detect?**
 The question is asking for the abbreviated version of hexadecimal. Once you figure it out, type the answer into the answer field on TryHackMe and click submit.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/a5e49799e41204bfc3e3ff73eac08fb4_MD5.jpeg)
+![](_resources/03%20Yara/a5e49799e41204bfc3e3ff73eac08fb4_MD5.jpeg)
 
 **Would the text “Enter your Name” be a string in an application? (Yay/Nay)**
 Looking at the snippet from above should give you the answer to this question. Once you figure it out, type the answer into the answer field on TryHackMe and click submit.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/ce8eba85ba765169030222ecd2e6fe20_MD5.jpeg)
+![](_resources/03%20Yara/ce8eba85ba765169030222ecd2e6fe20_MD5.jpeg)
 
 # Task 3 Installing Yara (Ubuntu/Debian & Windows)
 
@@ -100,7 +100,7 @@ wget https://raw.githubusercontent.com/Anlominus/TryHackMe/main/Room/YARA/instal
 
 Download latest binaries (zip files) from their GitHub page 
 
-[![image](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/138a1806934220de7798a7106b101ce8_MD5.jpg)
+[![image](_resources/03%20Yara/138a1806934220de7798a7106b101ce8_MD5.jpg)
 
 # Task 4 Deploy
 
@@ -110,7 +110,7 @@ In-Browser (No VPN required)
 
 Deploy your own instance by pressing the green “Start Machine” button and scroll up to the top of the room and await the timer. The machine will start in a split-screen view. In case the VM is not visible, use the blue “Show Split View” button at the top-right of the page.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/f9bed82e60ae0320c42de492dfa32208_MD5.jpeg)
+![](_resources/03%20Yara/f9bed82e60ae0320c42de492dfa32208_MD5.jpeg)
 
 Using SSH (TryHackMe VPN required).
 
@@ -154,7 +154,7 @@ We'll make one of the most basic rules you can make below.
 nano myfirstrule.yar
 ```
 
-[![image](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/b739ae6b6c3511e265bdf97a3abbe493_MD5.jpg)_MD5.jpg)
+[![image](_resources/03%20Yara/b739ae6b6c3511e265bdf97a3abbe493_MD5.jpg)_MD5.jpg)
 
 3. With this open, input the snippet below and save the file:
 
@@ -164,7 +164,7 @@ rule examplerule {
 }
 ```
 
-[![image](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/900c045e3bad3f6b649dc95b214fc753_MD5.jpg)_MD5.jpg)
+[![image](_resources/03%20Yara/900c045e3bad3f6b649dc95b214fc753_MD5.jpg)_MD5.jpg)
 
 The **name** of the rule in this snippet is `examplerule`, where we have one condition - in this case, the `condition` is condition. As previously discussed, every rule requires both a name and a condition to be valid. This rule has satisfied those two requirements.  
 
@@ -178,11 +178,11 @@ yara myfirstrule.yar somefile
  
  If "some file" exists, Yara will say `examplerule` because the pattern has been met - as we can see below:  
  
- [![image](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/bd4235f8c1d5477c84ea7a159e918cd8_MD5.jpg)_MD5.jpg)
+ [![image](_resources/03%20Yara/bd4235f8c1d5477c84ea7a159e918cd8_MD5.jpg)_MD5.jpg)
 
 If the file does not exist, Yara will output an error such as that below:
 
-[![image](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/4aee7b129eaaac97de63a157bf010cc5_MD5.jpg)_MD5.jpg)
+[![image](_resources/03%20Yara/4aee7b129eaaac97de63a157bf010cc5_MD5.jpg)_MD5.jpg)
 
 Congrats! You've made your first rule.
 
@@ -194,7 +194,7 @@ Checking whether or not a file exists isn't all that helpful. After all, we can 
 
 Yara has a few conditions, which I encourage you to read [here](https://yara.readthedocs.io/en/stable/writingrules.html) at your own leisure. However, I'll detail a few below and explain their purpose.
  
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/57d4380c85e7fa45ade2f61855893bcd_MD5.webp)
+![](_resources/03%20Yara/57d4380c85e7fa45ade2f61855893bcd_MD5.webp)
 
 ## Meta
 
@@ -308,7 +308,7 @@ Remembering that the text on left is the name of our rule, and the text on right
 
 ## Anatomy of a Yara Rule
 
-> [![image](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/07c9550f7f40419a61335c1a36a92f29_MD5.jpg)_MD5.jpg)
+> [![image](_resources/03%20Yara/07c9550f7f40419a61335c1a36a92f29_MD5.jpg)_MD5.jpg)
 
 Information security researcher "fr0gger_" has recently created a [handy cheatsheet](https://medium.com/malware-buddy/security-infographics-9c4d3bd891ef#18dd) that breaks down and visualises the elements of a YARA rule (shown above, all image credits go to him). It's a great reference point for getting started!
 
@@ -484,37 +484,37 @@ cmnatic@thm-yara:~/suspicious-files/file1$ python ../../tools/Loki/loki.py -p .
 **Scan file 1. Does Loki detect this file as suspicious/malicious or benign?**
 After you have run Loki to scan, you will have a big output with a lot of information to look at. The results can be found in the bottom section of the output. Look for the first yellow Result, the answer will be in this row. Once you find it, type your answer into the TryHackMe answer field and click submit.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/b821897a9ff6f5cee028b8d596c3332c_MD5.jpeg)
+![](_resources/03%20Yara/b821897a9ff6f5cee028b8d596c3332c_MD5.jpeg)
 Answer: Suspicious
 
 **What Yara rule did it match on?**
 The next answer can be found a little bit further up, look for the white text REASON 1. In this row you will find the answer right after MATCH:. There is and underscore between the words but you can’t see it on the output. Once you find it, type your answer into the TryHackMe answer field and click submit.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/4d54fd39468e563dcc591fabc749def4_MD5.jpeg)
+![](_resources/03%20Yara/4d54fd39468e563dcc591fabc749def4_MD5.jpeg)
 Answer: webshell_metaslsoft
 
 **What does Loki classify this file as?**
 This answer can be found on the row underneath where you found the previous question. It can be found right after the white text DESCRIPTION:. There is no underscore between these two words on this answer. Once you find it, type your answer into the TryHackMe answer field and click submit.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/d7fc5194a57ab7f88184ba4fd60ae910_MD5.jpeg)
+![](_resources/03%20Yara/d7fc5194a57ab7f88184ba4fd60ae910_MD5.jpeg)
 Answer: Web Shell
 
 **Based on the output, what string within the Yara rule did it match on?**
 This answer can be found on the row underneath where you found the previous question. It can be found right after the white text MATCHES:. Once you find it, type your answer into the TryHackMe answer field and click submit.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/13cdaf0f84059d981f987f80b71aa93f_MD5.jpeg)
+![](_resources/03%20Yara/13cdaf0f84059d981f987f80b71aa93f_MD5.jpeg)
 Answer: Str1
 
 **What is the name and version of this hack tool?**
 Move up to the white text FIRST BYTES: then move to the end where you will find the answer. Once you find it, type your answer into the TryHackMe answer field and click submit.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/0ac685fcd4e84d7e7b13e0478b332ad0_MD5.jpeg)
+![](_resources/03%20Yara/0ac685fcd4e84d7e7b13e0478b332ad0_MD5.jpeg)
 Answer:b374k 2.2
 
 **Inspect the actual Yara file that flagged file 1. Within this rule, how many strings are there to flag this file?**
 Now from two of the previous questions we know that the Yara rule it has to deal with is Web Shell, and the Loki out put shows us the file path that we can take to hopefully find the file.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/e1558e85b2737be70d0f2b66d3303bed_MD5.jpeg)
+![](_resources/03%20Yara/e1558e85b2737be70d0f2b66d3303bed_MD5.jpeg)
 
 So we can run the command:
 
@@ -524,38 +524,38 @@ ls /home/cmnatic/tools/Loki/signature-base/yara | grep webshell
 
 Then press enter to run the command.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/e6f0d9996bfe5986b177b4f1f1a42396_MD5.jpeg)
+![](_resources/03%20Yara/e6f0d9996bfe5986b177b4f1f1a42396_MD5.jpeg)
 
 We get five different Yara files, the only one that looks like it might be the one to look at is thor-webshells.yar. I only say this becuase Thor was mentioned in the previous task. So lets take a look at this and see what we got, use command nano /home/cmnatic/tools/Loki/signature-base/yara/thor-webshells.yar and press enter to look at it.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/e9ae4ec071116830829b94cec609f164_MD5.jpeg)
+![](_resources/03%20Yara/e9ae4ec071116830829b94cec609f164_MD5.jpeg)
 
 Ok, now that we have the file open in nano let’s search it. Press F6 to enable the search feature in nano and type webshell_metaslsoft, then press enter.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/6dfc287e03729c173b3040b29c4b125e_MD5.jpeg)
+![](_resources/03%20Yara/6dfc287e03729c173b3040b29c4b125e_MD5.jpeg)
 
 We had the right file, and were taken to the right Yara rule. So now we look for the strings portion and count how many rules are under the string category. Once you have done this, type your answer into the answer field on TryHackMe and click submit.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/074e46846a2e132a36e9b6d5fcd22325_MD5.jpeg)
+![](_resources/03%20Yara/074e46846a2e132a36e9b6d5fcd22325_MD5.jpeg)
 
 Answer: 1
 
 **Scan file 2. Does Loki detect this file as suspicious/malicious or benign?**
 So let’s change directories, with cd ..
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/5ec2644e80a4aefd6a93b6fcba62cb33_MD5.jpeg)
+![](_resources/03%20Yara/5ec2644e80a4aefd6a93b6fcba62cb33_MD5.jpeg)
 
 Then move into the file2 directory with cd file2
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/b4879a601c73727f70249515ae475f6e_MD5.jpeg)
+![](_resources/03%20Yara/b4879a601c73727f70249515ae475f6e_MD5.jpeg)
 
 Now we can run Loki with the command `python /home/cmnatic/tools/Loki/loki.py -p` 
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/31d99be58e1342d160c2e1fa50eeae49_MD5.jpeg)
+![](_resources/03%20Yara/31d99be58e1342d160c2e1fa50eeae49_MD5.jpeg)
 
 After the Loki scan runs it’s course it’s time to see what if it’s safe or not. According to the scan the file is clean.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/ba6b8ec253aaeba59a8918ef93821cd4_MD5.jpeg)
+![](_resources/03%20Yara/ba6b8ec253aaeba59a8918ef93821cd4_MD5.jpeg)
 
 Answer: Benign
 
@@ -563,15 +563,15 @@ Answer: Benign
 
 Use ls to list out the contents of the directory.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/b0eae11a8af6e4d3af982b8dcd898a55_MD5.jpeg)
+![](_resources/03%20Yara/b0eae11a8af6e4d3af982b8dcd898a55_MD5.jpeg)
 
 Now use nano on the 1ndex.php file, like so, nano 1ndex.php .
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/cc9592edfdfa30ac3b8585de87566b76_MD5.jpeg)
+![](_resources/03%20Yara/cc9592edfdfa30ac3b8585de87566b76_MD5.jpeg)
 
 This will open the file so you can view the details of it. If you look at the top left of the php file you will see the name and version, the answer does not require the word shell. So once you find it, type the answer into the TryHackMe answer field and click submit.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/60c9b760e48051891e28ccee42b4f31f_MD5.jpeg)
+![](_resources/03%20Yara/60c9b760e48051891e28ccee42b4f31f_MD5.jpeg)
 
 Answer: b374k 3.2.3
 
@@ -697,7 +697,7 @@ Further Reading on creating Yara rules and using yarGen:
 **From within the root of the suspicious files directory, what command would you run to test Yara and your Yara rule against file 2?**
 To answer this question you have to think about how you would run the file using yara, not Loki like in the previous task. So you are creating the syntax that you are going to run the rule against the file. If we look back at Task 4 we can see what the snytax should look like.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/12861fea62949c01e468ec54329e849d_MD5.jpeg)
+![](_resources/03%20Yara/12861fea62949c01e468ec54329e849d_MD5.jpeg)
 
 So with this knowledge and the name and location of the new yara rule we answer this question. You will need to swap the file name and yara rule file location/name for the answer, not sure why it is like that but that is the format of the answer. Once you have it properly figured out type it out into the TryHackMe answer field and click submit.
 
@@ -707,15 +707,15 @@ Answer: yara 1ndex.php file2/file2.yar
 
 Before we run this let’s move over to the file with cd /home/cmnatic/suspicious-files/file2 .
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/8d895d2fdb5312920ed4da0434d02ebc_MD5.jpeg)
+![](_resources/03%20Yara/8d895d2fdb5312920ed4da0434d02ebc_MD5.jpeg)
 
 Now that we are in this directory let’s change the syntax from the previous question, so that we can run this yara rule against the php file. So we can set up the syntax like this, yara /home/cmnatic/suspicious-files/file2.yar 1ndex.php
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/0999343f14efc26aee972b30ad0190da_MD5.jpeg)
+![](_resources/03%20Yara/0999343f14efc26aee972b30ad0190da_MD5.jpeg)
 
 So what does this output mean, if we look back at Task 5 we can see what the output means.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/b0f312668fcf7a39bf0101f97a1b1259_MD5.jpeg)
+![](_resources/03%20Yara/b0f312668fcf7a39bf0101f97a1b1259_MD5.jpeg)
 
 So it found matched to the yararule!! Since it found a match we know our answer and can type it into the TryHackMe answer field and click submit.
 
@@ -725,7 +725,7 @@ Answer: Yay
 
 This question doesn’t require an answer but does require a little work. To move the yara rule over to the Loki yara directory. You can look back at the output from Loki scan, if you don’t have it here is the syntax to move the file over to the proper directory: mv /home/cmnatic/suspicious-files/file2.yar /home/cmnatic/tools/Loki/signature-base/yara/
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/6c2d285580fe67aaa781b48f095547d2_MD5.jpeg)
+![](_resources/03%20Yara/6c2d285580fe67aaa781b48f095547d2_MD5.jpeg)
 
 Now that the file is moved over to the correct directory now you can move onto the next question.
 
@@ -733,15 +733,15 @@ Now that the file is moved over to the correct directory now you can move onto t
 
 We will run Loki again, as we did in the previous Task. First let’s change the directory over to the file we want to scan with cd /home/cmnatic/suspicious-files/file2
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/fddb985cfa4f4d08dc21b29256e9d7a1_MD5.jpeg)
+![](_resources/03%20Yara/fddb985cfa4f4d08dc21b29256e9d7a1_MD5.jpeg)
 
 Being in the correct directory we need to type the correct syntax into the terminal, python /home/cmnatic/tools/Loki/loki.py -p . , and press enter to run the program.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/7a99e6bdb820d231e72e786b303450f2_MD5.jpeg)
+![](_resources/03%20Yara/7a99e6bdb820d231e72e786b303450f2_MD5.jpeg)
 
 This time we get some results on the file, and since we see that we get results this answer this question. Type the answer into the answer field on TryHackMe, and click submit.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/69871330ac42e2acfb00720c21e59935_MD5.jpeg)
+![](_resources/03%20Yara/69871330ac42e2acfb00720c21e59935_MD5.jpeg)
 
 Answer: Yay
 
@@ -749,7 +749,7 @@ Answer: Yay
 
 Going back to our output from the Loki scan, look for the white text that says MATCHES: after the word var is the answer. Once you find it type the answer into the TryHackMe answer field and click submit.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/3de0fb3aa3d8cd7d06e4969fc59aaa8a_MD5.jpeg)
+![](_resources/03%20Yara/3de0fb3aa3d8cd7d06e4969fc59aaa8a_MD5.jpeg)
 
 Answer: Zepto
 
@@ -757,11 +757,11 @@ Answer: Zepto
 
 Since we know where the file is we don’t have to change directories, we can open nano right to the file. We can do this with the syntax nano /home/cmnatic/tools/Loki/sigature-base/yara/file2.yar
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/a5dd29d88c162b9675f350a7eb3129b7_MD5.jpeg)
+![](_resources/03%20Yara/a5dd29d88c162b9675f350a7eb3129b7_MD5.jpeg)
 
 As we can see the strings we are looking start around the middle of the terminal and go beyond. All you need to do is count the number of strings and type that number into the TryHackMe answer field, then click submit.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/4189d9d70c6d0c7d8aec0a61e83ad44d_MD5.jpeg)
+![](_resources/03%20Yara/4189d9d70c6d0c7d8aec0a61e83ad44d_MD5.jpeg)
 
 Answer: 20
 
@@ -769,7 +769,7 @@ Answer: 20
 
 This answer can be found underneath the string section, in the conditions section. In the first row you will see filesize then to the right the file size. Once you find the answer type it into the TryHackMe answer field and click submit.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/a1db7031fdbfeddd74eed56701d56f86_MD5.jpeg)
+![](_resources/03%20Yara/a1db7031fdbfeddd74eed56701d56f86_MD5.jpeg)
 
 Answer: 700kb
 
@@ -781,7 +781,7 @@ Valhalla is an online Yara feed created and hosted by [Nextron-Systems](https://
 
 *Per the website, "Valhalla boosts your detection capabilities with the power of thousands of hand-crafted high-quality YARA rules."*
 
-[![image](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/4481909b8699b9ee777b35c773ada0b5_MD5.jpg)_MD5.jpg)
+[![image](_resources/03%20Yara/4481909b8699b9ee777b35c773ada0b5_MD5.jpg)_MD5.jpg)
 
 From the image above, we should denote that we can conduct searches based on a keyword, tag, ATT&CK technique, sha256, or rule name.
 
@@ -789,7 +789,7 @@ Note: For more information on ATT&CK, please visit the [MITRE](https://tryhackme
 
 Taking a look at the data provided to us, let's examine the rule in the screenshot below:
 
-[![image](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/3c7267bd591adee163e67d662fc2f0a4_MD5.jpg)_MD5.jpg)
+[![image](_resources/03%20Yara/3c7267bd591adee163e67d662fc2f0a4_MD5.jpg)_MD5.jpg)
 
 We are provided with the name of the rule, a brief description, a reference link for more information about the rule, along with the rule date.
 
@@ -803,7 +803,7 @@ Time to use Valhalla for some threat intelligence gathering...
 
 Before we answer let’s get to the [Valhalla](https://valhalla.nextron-systems.com/) website, here is the link for said website [https://valhalla.nextron-systems.com](https://valhalla.nextron-systems.com/) . Hold ctrl and click the link to have it open in a new tab.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/5774011b7c61f126d3cc114b3cd388f2_MD5.jpeg)
+![](_resources/03%20Yara/5774011b7c61f126d3cc114b3cd388f2_MD5.jpeg)
 
 **Enter the SHA256 hash of file 1 into Valhalla. Is this file attributed to an APT group? (Yay/Nay)**
 
@@ -811,11 +811,11 @@ If you still have the SHA256 hash for file1 from the previous task awesome if no
 
 You should be at the Valhalla website, you will see a Query search field. Take the SHA256 hash above copy (ctrl + c) and paste (ctrl + v) into the Query field on Valhalla. Then click the Search button on the right.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/0396f1784bcb5ab7e4e4acba0e6056f1_MD5.jpeg)
+![](_resources/03%20Yara/0396f1784bcb5ab7e4e4acba0e6056f1_MD5.jpeg)
 
 After it searches the SHA256, you can find the answer within the first result. Read the Description, once you figure out the answer type it into the TryHackMe answer field and click submit.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/e6cb12308b87502b812130055245b0d1_MD5.jpeg)
+![](_resources/03%20Yara/e6cb12308b87502b812130055245b0d1_MD5.jpeg)
 
 Answer: Yay
 
@@ -825,11 +825,11 @@ If you still have the SHA256 hash for file2 from the previous task awesome if no
 
 On your web browser press the back button to be taken back to the Valhalla home page. Before you can put the file2 SHA256 hash in though you will need to delete out the previous hash, this can easily be done by highlighting and pressing delete or clicking on the far right side of the Query search and holding backspace till it’s gone. Now take the SHA256 hash above copy (ctrl + c) and paste (ctrl + v) into the Query field on Valhalla. Then click the Search button on the right.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/59bdbef695599f26c794381f51534366_MD5.jpeg)
+![](_resources/03%20Yara/59bdbef695599f26c794381f51534366_MD5.jpeg)
 
 When the search results load, you will see four of them. Even though the question is asking for the the first rule that to detect the file, look at the date column first and go from there. Once you figure it out, highlight copy (ctrl + c) and paste (ctrl + v) or type, the answer into the TryHackMe Answer field and click submit.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/d088f98053ebee39174840d8b7f14202_MD5.jpeg)
+![](_resources/03%20Yara/d088f98053ebee39174840d8b7f14202_MD5.jpeg)
 
 Answer: Webshell_b374k_rule1
 
@@ -837,11 +837,11 @@ Answer: Webshell_b374k_rule1
 
 Going back to Valhalla, back in the row that we got the answer from the previous question from, move to the right to the blue boxes. The middle one with the little virus icon, takes you to VirusTotal, click on it.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/4202938595736bb6ca38fa2af0fa3830_MD5.jpeg)
+![](_resources/03%20Yara/4202938595736bb6ca38fa2af0fa3830_MD5.jpeg)
 
 When the page loads, the first line says YARA Signature Match -, after these is the name of the scanner and the answer to this question. Once you find it, highlight copy (ctrl + c) and paste (ctrl + v) or type, the answer into the TryHackMe Answer field and click submit.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/d8f1c7cd1ed276336433a1cdacb7eb3c_MD5.jpeg)
+![](_resources/03%20Yara/d8f1c7cd1ed276336433a1cdacb7eb3c_MD5.jpeg)
 
 Answer: THOR APT Scanner
 
@@ -849,15 +849,15 @@ Answer: THOR APT Scanner
 
 Going back to VirusTotal, before you can put the file2 SHA256 hash in though you will need to delete out the previous search entry, this can easily be done by highlighting and pressing delete or clicking on the far right side of the Query search and holding backspace till it’s gone.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/a3e91933c613fe45445fe279050a2a0a_MD5.jpeg)
+![](_resources/03%20Yara/a3e91933c613fe45445fe279050a2a0a_MD5.jpeg)
 
 Once that is done take the SHA256 hash above copy (ctrl + c) and paste (ctrl + v) into the VirusTotal search bar at the top of the page press enter to search it.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/bbebb8f4adfdad715fe59d49074f1f71_MD5.jpeg)
+![](_resources/03%20Yara/bbebb8f4adfdad715fe59d49074f1f71_MD5.jpeg)
 
 At quick glance it looks like it was detected by all the AV vendors, but scroll down to make sure. Once you figure it out type the answer into the TryHackMe answer field and click submit.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/68a80803367e958ae0fa0e9cb0419419_MD5.jpeg)
+![](_resources/03%20Yara/68a80803367e958ae0fa0e9cb0419419_MD5.jpeg)
 
 Answer: Nay
 
@@ -865,19 +865,19 @@ Answer: Nay
 
 Back on the VirusTotal site click on the DETAILS tab, this will open the tab where the DETECTIONS just was.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/85b291df068750ef50c24ff3350f80aa_MD5.jpeg)
+![](_resources/03%20Yara/85b291df068750ef50c24ff3350f80aa_MD5.jpeg)
 
 Now that the DETAILS tab is open we need to scroll down to the Name secion. So start scrolling, it’s not far and it’s the last section.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/fdbc5d104d39114b905d89fccf7bffa2_MD5.jpeg)
+![](_resources/03%20Yara/fdbc5d104d39114b905d89fccf7bffa2_MD5.jpeg)
 
 Ok, now that we are here it doesn’t show us all the names let us, click the down carrot to expose the rest.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/f4774db565b15e43ebe1f57f4b12ec11_MD5.jpeg)
+![](_resources/03%20Yara/f4774db565b15e43ebe1f57f4b12ec11_MD5.jpeg)
 
 Looking at the full list of names with the file extensions, most of them are php. But we have a couple of outlairs, one of the different extensions doesn’t fit the answer type that TryHackMe is asking, it can only be three letters. So it only leaves us three choices. Once you figure it out type the answer into the TryHackMe answer field and click submit.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/806ee6865f02095ecbaaedff37a82d93_MD5.jpeg)
+![](_resources/03%20Yara/806ee6865f02095ecbaaedff37a82d93_MD5.jpeg)
 
 Answer: exe
 
@@ -885,15 +885,15 @@ Answer: exe
 
 We are done with VirusTotal, so head back the the Valhalla search results for file2. This time click on the chainlink icon, this will take you to the github, which will give us lots of information.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/01b69a136aa45bf7a9340f5f785d97f6_MD5.jpeg)
+![](_resources/03%20Yara/01b69a136aa45bf7a9340f5f785d97f6_MD5.jpeg)
 
 Once the page loads, we are going to use the find feature of the broswer. Press ctrl + f to open the find bar.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/5d2f9df14ae2da312be9248ceb8c9635_MD5.jpeg)
+![](_resources/03%20Yara/5d2f9df14ae2da312be9248ceb8c9635_MD5.jpeg)
 
 Since it is a Javascript library we are looking for, the file most likely ends with .js, so type .js into the find bar. We get three possible hits, cycle through them, the second two should be what you are looking for. Once you find it, highlight copy (ctrl + c) and paste (ctrl + v) or type, the answer into the TryHackMe Answer field and click submit.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/7912163432f98963b9596ddc2ca4896f_MD5.jpeg)
+![](_resources/03%20Yara/7912163432f98963b9596ddc2ca4896f_MD5.jpeg)
 
 Answer: Zepto
 
@@ -901,7 +901,7 @@ Answer: Zepto
 
 For the last time, head back to the Valhalla site. Highlight and copy (ctrl + c) the rule name that we have been looking at.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/f2a1335e20355b0350b678687a7683fd_MD5.jpeg)
+![](_resources/03%20Yara/f2a1335e20355b0350b678687a7683fd_MD5.jpeg)
 
 Going back to the terminal, lets see if we can find this Yara rule in our Loki directory. 
 We can do this with:
@@ -910,11 +910,11 @@ We can do this with:
 ls /home/cmnatic/tools/Loki/signature-base/yara/ | grep “Webshell_b374k_rule1”
 ```
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/85de0b652cd7c415deec7ef082303b18_MD5.jpeg)
+![](_resources/03%20Yara/85de0b652cd7c415deec7ef082303b18_MD5.jpeg)
 
 Nothing comes back so this should give you the answer, Once you figure it out type the answer into the TryHackMe answer field and click submit.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/03%20Yara/389c532280219f7bc6289fa34f33c4a0_MD5.jpeg)
+![](_resources/03%20Yara/389c532280219f7bc6289fa34f33c4a0_MD5.jpeg)
 
 Answer: Nay
 

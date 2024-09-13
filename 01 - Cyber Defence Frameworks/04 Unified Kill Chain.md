@@ -5,7 +5,7 @@ https://medium.com/@AbhijeetSingh4/unified-kill-chain-soc-lavel-1-tryhackme-walk
 The Unified Kill Chain is a framework which establishes the phases of an attack, and a means of identifying and mitigating risk to IT assets.
 # Task 1 Introduction
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/53d3ff2ddadacbbdcb6fb744a8f94d78_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/53d3ff2ddadacbbdcb6fb744a8f94d78_MD5.jpg)
 
 Understanding the behaviours, objectives and methodologies of a cyber threat is a vital step to establishing a strong cybersecurity defence (known as a cybersecurity posture).
 
@@ -20,7 +20,7 @@ In this room, you will be introduced to the UKC (Unified Kill Chain) framework t
 
 # Task 2 What is a “Kill Chain”
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/cbb037928206d1f14d314cb337d4ca78_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/cbb037928206d1f14d314cb337d4ca78_MD5.jpg)
 
 Originating from the military, a “Kill Chain” is a term used to explain the various stages of an attack. In the realm of cybersecurity, a “Kill Chain” is used to describe the methodology/path attackers such as hackers or APTs use to approach and intrude a target.
 
@@ -38,7 +38,7 @@ Since the answers can be found above, I won’t be posting it. You can follow al
 
 The answer can be found in the first sentence of this task. Once you find it, highlight & copy (ctrl +c ) or type the answer into the TryHackMe answer field, then click submit.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/940db054fd82afcb0963523338a448f7_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/940db054fd82afcb0963523338a448f7_MD5.jpg)
 
 # Task 3 What is “Threat Modelling”
 
@@ -51,7 +51,7 @@ Threat modelling is about identifying risk and essentially boils down to:
 3. Creating a plan of action to secure these systems and applications from the vulnerabilities highlighted
 4. Putting in policies to prevent these vulnerabilities from occurring again where possible (for example, implementing a software development life cycle (SDLC) for an application or training employees on phishing awareness).
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/05563af6ee61cb8d0599c99f20d2f464_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/05563af6ee61cb8d0599c99f20d2f464_MD5.jpg)
 
 Threat modelling is an important procedure in reducing the risk within a system or application, as it creates a high-level overview of an organisation’s IT assets (an asset in IT is a piece of software or hardware) and the procedures to resolve vulnerabilities.
 
@@ -67,11 +67,11 @@ Since the answers can be found above, I won’t be posting it. You can follow al
 
 The answer can be found at the end of the sentence after the boiled down section. Once you find it, highlight & copy (ctrl +c ) or type the answer into the TryHackMe answer field, then click submit.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/be58f921c795c2dedb6d0c3781d5eec5_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/be58f921c795c2dedb6d0c3781d5eec5_MD5.jpg)
 
 # Task 4 Introducing the Unified Kill Chain
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/53d3ff2ddadacbbdcb6fb744a8f94d78_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/53d3ff2ddadacbbdcb6fb744a8f94d78_MD5.jpg)
 
 To continue from the previous task, the [Unified Kill Chain](https://www.unifiedkillchain.com/assets/The-Unified-Kill-Chain.pdf) published in 2017, aims to complement (**not compete**) with other cybersecurity kill chain frameworks such as Lockheed Martin’s and MITRE’s ATT&CK.
 
@@ -79,7 +79,7 @@ The UKC states that there are 18 phases to an attack: Everything from reconnaiss
 
 Some large benefits of the UKC over traditional cybersecurity kill chain frameworks include the fact that it is modern and extremely detailed (**reminder**: it has 18 phases officially, whereas other frameworks may have a small handful)
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/f98bf3e2b2ae14607b09811cb72083a9_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/f98bf3e2b2ae14607b09811cb72083a9_MD5.jpg)
 
 **Benefits of the Unified Kill Chain (UKC) FrameworkHow do Other Frameworks Compare?**Modern (released in 2017, updated in 2022).
 
@@ -105,41 +105,41 @@ Since the answers can be found above, I won’t be posting it. You can follow al
 
 The answer can be found in the first sentence of this task. Once you find it, highlight & copy (ctrl +c ) or type the answer into the TryHackMe answer field, then click submit.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/296d253081cb60ebc10c47e01d1df7fa_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/296d253081cb60ebc10c47e01d1df7fa_MD5.jpg)
 
 **According to the Unified Kill Chain, how many phases are there to an attack?**
 
 Count the number of “links” to the Unified kill chain, or see what at the bottom of the chart and see what the number is. Once you find it, highlight & copy (ctrl +c ) or type the answer into the TryHackMe answer field, then click submit.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/93dd3db5c80064bdad22e2b254e7bcc0_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/93dd3db5c80064bdad22e2b254e7bcc0_MD5.jpg)
 
 **What is the name of the attack phase where an attacker employs techniques to evade detection?**
 
 Going back up to the chart, the answer can be found at number 7. Once you find it, highlight & copy (ctrl +c ) or type the answer into the TryHackMe answer field, then click submit.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/e0952ef5b345220b6aa30876077a55c4_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/e0952ef5b345220b6aa30876077a55c4_MD5.jpg)
 
 **What is the name of the attack phase where an attacker employs techniques to remove data from a network?**
 
 Going back up to the chart, the answer can be found at number 16. Once you find it, highlight & copy (ctrl +c ) or type the answer into the TryHackMe answer field, then click submit.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/4793fb6482b832d1de38cc3aa0345f0b_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/4793fb6482b832d1de38cc3aa0345f0b_MD5.jpg)
 
 **What is the name of the attack phase where an attacker achieves their objectives?**
 
 Going back up to the chart, the answer can be found at number 18. Once you find it, highlight & copy (ctrl +c ) or type the answer into the TryHackMe answer field, then click submit.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/eedbb96307488f7d1795386183749aea_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/eedbb96307488f7d1795386183749aea_MD5.jpg)
 
 # Task 5 Phase: In (Initial Foothold)
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/14f644ed306cc3ae9134c6c3029b036e_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/14f644ed306cc3ae9134c6c3029b036e_MD5.jpg)
 
 The main focus of this series of phases is for an attacker to gain access to a system or networked environment.
 
 An attacker will employ numerous tactics to investigate the system for potential vulnerabilities that can be exploited to gain a foothold in the system. For example, a common tactic is the use of reconnaissance against a system to discover potential attack vectors (such as applications and services).
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/3e22deb8b886a7b265de80fe10d81718_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/3e22deb8b886a7b265de80fe10d81718_MD5.jpg)
 
 This series of phases also accommodates for an attacker creating a form of persistence (such as files or a process that allows the attacker to connect to the machine at any time). Finally, the UKC accounts for the fact that attackers will often use a combination of the tactics listed above.
 
@@ -217,15 +217,15 @@ For example, an adversary can gain access to a web server that is publically acc
 
 Above under the Social Engineering section you will find; Getting a user to open a malicious attachment. This is the hint of about the tatic being used in email. Click the blue link next to Social Engineering labeled, MITRE Tactic TA0001.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/06c38eae58fb5d152c18f5e12918ae79_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/06c38eae58fb5d152c18f5e12918ae79_MD5.jpg)
 
 The MITRE ATT&CK page will load, you will see the Techniques table below the scroll down till reach T1566.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/3334d4c2b70266e5a3e02032253c05dc_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/3334d4c2b70266e5a3e02032253c05dc_MD5.jpg)
 
 Once you reach this technique you will have your answer. Once you find it, highlight & copy (ctrl +c ) or type the answer into the TryHackMe answer field, then click submit.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/1d6daf09a3758091571ed7422eca4a11_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/1d6daf09a3758091571ed7422eca4a11_MD5.jpg)
 
 Answer: Phishing
 
@@ -235,7 +235,7 @@ Since the answer can be found above, I won’t be posting it. You can follow alo
 
 Scroll up till you find the section about manipulating employees, the name of this section is the answer to this question. Once you find it, highlight & copy (ctrl +c ) or type the answer into the TryHackMe answer field, then click submit.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/d8992182cd2bf313df9528029ee12a7b_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/d8992182cd2bf313df9528029ee12a7b_MD5.jpg)
 
 **An adversary setting up the Command & Control server infrastructure is what phase of the Unified Kill Chain?**
 
@@ -243,7 +243,7 @@ Since the answer can be found above, I won’t be posting it. You can follow alo
 
 Scroll up to the Command & Control Section, in the first sentence you will find the answer. Once you find it, highlight & copy (ctrl +c ) or type the answer into the TryHackMe answer field, then click submit.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/95becc90d3eefdce05d1bf9ad51a1a42_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/95becc90d3eefdce05d1bf9ad51a1a42_MD5.jpg)
 
 **Exploiting a vulnerability present on a system is what phase of the Unified Kill Chain?**
 
@@ -251,7 +251,7 @@ Since the answer can be found above, I won’t be posting it. You can follow alo
 
 Scroll up to the Section with MITRE Tactic TA0002, in the first sentence you will find the answer, the highlighted part describes what the question is asking. Once you find it, highlight & copy (ctrl +c ) or type the answer into the TryHackMe answer field, then click submit.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/2992c86ef2a481898a7c8afd443c3ce3_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/2992c86ef2a481898a7c8afd443c3ce3_MD5.jpg)
 
 **Moving from one system to another is an example of?**
 
@@ -259,7 +259,7 @@ Since the answer can be found above, I won’t be posting it. You can follow alo
 
 Scroll up to the Section with MITRE Tactic TA0008, in the first sentence you will find the answer, the highlighted part describes what the question is asking. Once you find it, highlight & copy (ctrl +c ) or type the answer into the TryHackMe answer field, then click submit.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/2d48d275db53c6b8b20d73f5aa4c2526_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/2d48d275db53c6b8b20d73f5aa4c2526_MD5.jpg)
 
 **Leaving behind a malicious service that allows the adversary to log back into the target is what?**
 
@@ -267,15 +267,15 @@ Since the answer can be found above, I won’t be posting it. You can follow alo
 
 Scroll up to the Section with MITRE Tactic TA0003, the last bullet point is where you can find the answer, the highlighted part describes what the question is asking. Once you find it, highlight & copy (ctrl +c ) or type the answer into the TryHackMe answer field, then click submit.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/3e2aa66e4dfdcbfd56c528a42f47834c_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/3e2aa66e4dfdcbfd56c528a42f47834c_MD5.jpg)
 
 # Task 6 Phase: Through (Network Propagation)
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/03fffa040a8442d4ac63a1c72d65b16f_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/03fffa040a8442d4ac63a1c72d65b16f_MD5.jpg)
 
 This phase follows a successful foothold being established on the target network. An attacker would seek to gain additional access and privileges to systems and data to fulfil their goals. The attacker would set up a base on one of the systems to act as their pivot point and use it to gather information about the internal network.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/6bcf4639d8a57d625decc085091a7418_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/6bcf4639d8a57d625decc085091a7418_MD5.jpg)
 
 ## Pivoting ([MITRE Tactic TA0008](https://attack.mitre.org/tactics/TA0008/))
 
@@ -314,37 +314,37 @@ Since the answer can be found above, I won’t be posting it. You can follow alo
 
 From the question, I am assuming that they already had access to the system, and were trying to gain higher privledged access. Scroll up to the Section with MITRE Tactic TA0004, in the first sentence you will find the highlighted part that describes what the question is asking. Once you find it, highlight & copy (ctrl +c ) or type the answer into the TryHackMe answer field, then click submit.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/de09ee6b6796b27357c86c1e104122d2_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/de09ee6b6796b27357c86c1e104122d2_MD5.jpg)
 
 **Mimikatz, a known attack tool, was detected running on the IT Manager’s computer. What is the mission of the tool?**
 
 So let’s first go find out what Mimikatz is, go up to one of the links to a MITRE Tactic and click on it to open a new tab.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/527a5fda5e324e48d667da19ffacf36e_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/527a5fda5e324e48d667da19ffacf36e_MD5.jpg)
 
 Once the MITRE ATT&CK page loads, click the Software link along the top.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/20258e16f4a6a29f4aa243f00f559550_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/20258e16f4a6a29f4aa243f00f559550_MD5.jpg)
 
 On the next page that loads, you will see on the left side of the screen a list of software, scroll down till you reach Mimikatz and click on it.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/9643c8583d8061bc9890787ce4cd45ba_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/9643c8583d8061bc9890787ce4cd45ba_MD5.jpg)
 
 On the right side of the webpage you will see a description of Mimikatz, this is what we were looking for. Now lets head back to the TryHackMe task to find what term we are looking for.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/baea574b44ed4b2b2503e798042cdffe_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/baea574b44ed4b2b2503e798042cdffe_MD5.jpg)
 
 Looking through the different Tactics we see the answer can be found in the Credential Access Section, the answer is at the end of the first sentence. Once you find it, highlight & copy (ctrl +c ) or type the answer into the TryHackMe answer field, then click submit.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/9f8738d43bd6acd7f54daa6431ebc2be_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/9f8738d43bd6acd7f54daa6431ebc2be_MD5.jpg)
 
 # Task 7 Phase: Out (Action on Objectives)
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/9526a5d0865098084dc9565fe8b3ebbb_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/9526a5d0865098084dc9565fe8b3ebbb_MD5.jpg)
 
 This phase wraps up the journey of an adversary’s attack on an environment, where they have critical asset access and can fulfil their attack goals. These goals are usually geared toward compromising the confidentiality, integrity and availability (CIA) triad.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/944b83c0871393747c65abdfe094ea5d_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/944b83c0871393747c65abdfe094ea5d_MD5.jpg)
 
 The tactics to be deployed by an attacker would include:
 
@@ -374,17 +374,17 @@ Since the answer can be found above, I won’t be posting it. You can follow alo
 
 Scroll up till you see MIRTE Tactic TA0010, the last sentence in this section gives away what the attacker is using to get the data. Once you find it, highlight & copy (ctrl +c ) or type the answer into the TryHackMe answer field, then click submit.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/87a0e822cfb71a7dc67f2e261aa5e881_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/87a0e822cfb71a7dc67f2e261aa5e881_MD5.jpg)
 
 **Personally identifiable information (PII) has been released to the public by an adversary, and your organisation is facing scrutiny for the breach. What part of the CIA triad would be affected by this action?**
 
 Let’s start by Googling the CIA triad, to find out exactly what it is and where the PII would fall into it. So head to Google, in the search bar in the middle of the screen type CIA triad, and press enter to search.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/4ce9563a1a70f89e0605844838fefb4e_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/4ce9563a1a70f89e0605844838fefb4e_MD5.jpg)
 
 Once the search loads, on the right side I had a sample load from TechTarget explaining what the CIA triad is, at least a little bit. But it at least gives up the Pillars, which is all we really need.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/38210c4369d9f15d857c91d7219ebd8d_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/38210c4369d9f15d857c91d7219ebd8d_MD5.jpg)
 
 So let me define what each Pillar is then we can answer the question.
 
@@ -398,7 +398,7 @@ Answer: Confidentiality
 
 # Task 8 Practical
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/58e1bbdf470f1c173e82edaca5d0889c_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/58e1bbdf470f1c173e82edaca5d0889c_MD5.jpg)
 
 **Deploy** the static site attached to the task. You will need to match the various actions of an attacker to the correct phase of the Unified Kill Chain framework to reveal the flag.
 
@@ -408,77 +408,77 @@ Answer: Confidentiality
 
 To start off you need to click the green View Site button at the top of the Task.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/b54866a467954f37761f435b049c684b_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/b54866a467954f37761f435b049c684b_MD5.jpg)
 
 The screen will split in half and on the right side will be the practical.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/c91037d00584e9fda7b17416edd74271_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/c91037d00584e9fda7b17416edd74271_MD5.jpg)
 
 The first practical question is; The Attacker uses tools to gather information about a system. What phase of the Unified Kill Chain is this? If you go back to Task 4 you can see the whole Unified Kill Chain, look at all three of these links to see which is the info gathering phase.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/ba78ded44c3befbe35fdc9ff1fad0c59_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/ba78ded44c3befbe35fdc9ff1fad0c59_MD5.jpg)
 
 Once you figure out the phase, click button to go to the next question.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/4512fb0ab5526c2ddb1415be7283eb79_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/4512fb0ab5526c2ddb1415be7283eb79_MD5.jpg)
 
 The next question is; The Attacker installs a malicious script to allow them remote access at a later date. What phase of the Unified Kill Chain is this?
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/5684be44ee8b7e57f0027745c719de1d_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/5684be44ee8b7e57f0027745c719de1d_MD5.jpg)
 
 If you go back to Task 4 you can see the whole Unified Kill Chain, look at all three of these links to see which is the remote access at a later date phase.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/f49915fe3c3e85616270e77b5e238dfe_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/f49915fe3c3e85616270e77b5e238dfe_MD5.jpg)
 
 Once you figure out the phase, click button to go to the next question.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/7600a56116245a56d6dd6295e239b496_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/7600a56116245a56d6dd6295e239b496_MD5.jpg)
 
 The next question is; The hacked machine is being controlled from an Attacker’s own server. What phase of the Unified Kill Chain is this?
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/4f7f05b43d306aa43dd8277be8fa20fe_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/4f7f05b43d306aa43dd8277be8fa20fe_MD5.jpg)
 
 If you go back to Task 4 you can see the whole Unified Kill Chain, look at all three of these links to see which is the controlling a victims machine from an Attacker’s own server.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/3830253db51feae3968001c182bdc724_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/3830253db51feae3968001c182bdc724_MD5.jpg)
 
 Once you figure out the phase, click button to go to the next question.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/835c9c74520548a95e833f084e191d38_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/835c9c74520548a95e833f084e191d38_MD5.jpg)
 
 The next question is; The Attacker uses the hacked machine to access other servers on the same network. What phase of the Unified Kill Chain is this?
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/2bf9a7b0e0a6615e41a06d1ee5b159a3_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/2bf9a7b0e0a6615e41a06d1ee5b159a3_MD5.jpg)
 
 If you go back to Task 4 you can see the whole Unified Kill Chain, look at all three of these links to see which is the controlling a victims machine from an Attacker’s own server.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/ccba006440fc5b5e45d42f278a63ca34_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/ccba006440fc5b5e45d42f278a63ca34_MD5.jpg)
 
 Once you figure out the phase, click button to go to the next question.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/6dcc8a621915bb9b55ffc5e326012adc_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/6dcc8a621915bb9b55ffc5e326012adc_MD5.jpg)
 
 The next question is; The Attacker steals a database and sells this to a 3rd party. What phase of the Unified Kill Chain is this?
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/aa31ccefa0f868cd73d5893174713f4d_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/aa31ccefa0f868cd73d5893174713f4d_MD5.jpg)
 
 If you go back to Task 4 you can see the whole Unified Kill Chain, look at all three of these links to see which is the Attackers intended purpose.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/1b0db2ccf964813f078e897f78dc0ce3_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/1b0db2ccf964813f078e897f78dc0ce3_MD5.jpg)
 
 Once you figure out the phase, click the button.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/851ed01e400b70e40d0eaaeed98d27df_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/851ed01e400b70e40d0eaaeed98d27df_MD5.jpg)
 
 This time at the bottom will reveal the flag. Highlight & copy (ctrl +c ) or type the answer into the TryHackMe answer field, then click submit.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/82e02173ab1c464cddfd7fbf7018688e_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/82e02173ab1c464cddfd7fbf7018688e_MD5.jpg)
 
 Answer: THM{UKC_SCENARIO}
 
 # Task 9 Conclusion
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/04%20Unified%20Kill%20Chain/000378022cbd21690a1c8937c6093d6f_MD5.jpg)
+![](_resources/04%20Unified%20Kill%20Chain/000378022cbd21690a1c8937c6093d6f_MD5.jpg)
 
 Congrats on making it through the Unified Kill Chain room. Hopefully, you understand the importance that frameworks such as the UKC play in identifying risk and potential mitigating attacks by reconstructing the various steps an attacker took.
 

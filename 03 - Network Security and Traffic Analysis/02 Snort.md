@@ -12,7 +12,7 @@ Learn how to use Snort to detect real-time threats, analyse recorded traffic fil
 
 # Task 1 Introduction
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/45ddb96690158fe1e3cbb73871fd7bda_MD5.jpg)
+![](_resources/02%20Snort/45ddb96690158fe1e3cbb73871fd7bda_MD5.jpg)
 
 This room expects you to be familiar with basic Linux command-line functionalities like general system navigation and Network fundamentals (ports, protocols and traffic data). The room aims to encourage you to start working with Snort to analyse live and captured traffic.
 
@@ -24,13 +24,13 @@ SNORT is an **open-source, rule-based** Network Intrusion Detection and Preventi
 
 # Task 2 Interactive Material and VM
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/3622021fd241c9cab9d7877c0f6cfac8_MD5.jpg)
+![](_resources/02%20Snort/3622021fd241c9cab9d7877c0f6cfac8_MD5.jpg)
 
 **Interactive material and exercise setup**
 
 Deploy the machine attached to this task; it will be visible in the **split-screen** view once it is ready. If you don’t see a virtual machine load, click the **Show Split View** button.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/dbe7e1961f0d6adbe977daeed1c581ae_MD5.jpg)
+![](_resources/02%20Snort/dbe7e1961f0d6adbe977daeed1c581ae_MD5.jpg)
 
 Once the machine had fully started, you will see a folder named “**Task-Exercises**” on the Desktop. Each exercise has an individual folder and files; use them accordingly to the questions.
 
@@ -41,7 +41,7 @@ There are two sub-folders available;
 - Config-Sample **—** Sample configuration and rule files. These files are provided to show what the configuration files look like. Installed Snort instance doesn’t use them, so feel free to practice and modify them. Snort’s original base files are located under **/etc/snort** folder.
 - Exercise-Files **—** There are separate folders for each task. Each folder contains pcap, log and rule files ready to play with.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/002e237de16b3a5cbfc5807a688ad976_MD5.jpg)
+![](_resources/02%20Snort/002e237de16b3a5cbfc5807a688ad976_MD5.jpg)
 
 **Traffic Generator**
 
@@ -59,11 +59,11 @@ user@ubuntu$ sudo ./traffic-generator.sh
 
 General desktop overview. Traffic generator script in action.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/96575bb152c8fda593707c53b004fdbe_MD5.jpg)
+![](_resources/02%20Snort/96575bb152c8fda593707c53b004fdbe_MD5.jpg)
 
 Once you choose an action, the menu disappears and opens a terminal instance to show you the output of the action.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/5ef59d2a6d869674e168d04a11b7b3fc_MD5.jpg)
+![](_resources/02%20Snort/5ef59d2a6d869674e168d04a11b7b3fc_MD5.jpg)
 
 ### Answer the questions below
 
@@ -71,21 +71,21 @@ Once you choose an action, the menu disappears and opens a terminal instance to 
 
 Click the small terminal icon, in the top left of the VM.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/935741a919b5efe32a18f40595d52b8a_MD5.jpg)
+![](_resources/02%20Snort/935741a919b5efe32a18f40595d52b8a_MD5.jpg)
 
 In the window that pops up type, cd Desktop/Task-Exercises/ . Then press enter to navigate to this directory.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/2ad1b98616986788218acd635c919314_MD5.jpg)
+![](_resources/02%20Snort/2ad1b98616986788218acd635c919314_MD5.jpg)
 
 Type the command, given to you by the question, into the terminal. The output is going to be the answer. Type it into the TryHackMe answer field, then click submit.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/c2839719575f7d6ee5a1ab74821268a7_MD5.jpg)
+![](_resources/02%20Snort/c2839719575f7d6ee5a1ab74821268a7_MD5.jpg)
 
 Answer: Too Easy!
 
 # Task 3 Introduction to IDS/IPS
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/fd03462b6d268890e12cceaf18243ffe_MD5.jpg)
+![](_resources/02%20Snort/fd03462b6d268890e12cceaf18243ffe_MD5.jpg)
 
 Before diving into Snort and analysing traffic, let’s have a brief overview of what an Intrusion Detection System (IDS) and Intrusion Prevention System (IPS) is. It is possible to configure your network infrastructure and use both of them, but before starting to use any of them, let’s learn the differences.
 
@@ -120,7 +120,7 @@ HIPS working mechanism is similar to HIDS. The difference between them is that *
 
 There are three main detection and prevention techniques used in IDS and IPS solutions;
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/a959d576dfdfc93d8f75ecfb92c89d93_MD5.jpg)
+![](_resources/02%20Snort/a959d576dfdfc93d8f75ecfb92c89d93_MD5.jpg)
 
 ## Summary
 
@@ -137,7 +137,7 @@ SNORT is an **open-source**, **rule-based** Network Intrusion Detection and Prev
 
 **Capabilities of Snort;**
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/55f890648bf6c530819f5ae55c046091_MD5.jpg)
+![](_resources/02%20Snort/55f890648bf6c530819f5ae55c046091_MD5.jpg)
 
 - Live traffic analysis
 - Attack and probe detection
@@ -162,43 +162,43 @@ Since the answers can be found above, I won’t be sharing them here. Follow alo
 
 From the question, we are stopping threats, so we want to look at an IPS (Intrusion Prevention System). Scroll up to the IPS section, we see that there are four different types of IPS, read the bottom two. One of these holds the answer, also TryHackMe wants the acroymn of the name for the answer. Once you figure it out, highlight copy (ctrl + c) and paste (ctrl + v) or type, the answer in the TryHackMe answer field.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/0f76c02c14d21ab0a09393b4756d6166_MD5.jpg)
+![](_resources/02%20Snort/0f76c02c14d21ab0a09393b4756d6166_MD5.jpg)
 
 **Which snort mode can help you detect threats on a local network?**
 
 From the question, we are detecting threats, so we want to look at an IDS (Intrusion Detection System). Scroll up to the IDS section, with the IDS section we only have two to look at. The one we are looking for works on a network. One of these holds the answer, also TryHackMe wants the acroymn of the name for the answer. Once you figure it out, highlight copy (ctrl + c) and paste (ctrl + v) or type, the answer in the TryHackMe answer field.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/183034437efe04df9795db39e29efd62_MD5.jpg)
+![](_resources/02%20Snort/183034437efe04df9795db39e29efd62_MD5.jpg)
 
 **Which snort mode can help you detect the threats on a local machine?**
 
 From the question, we are detecting threats, so we want to look at an IDS (Intrusion Detection System). Scroll up to the IDS section, with the IDS section we only have two to look at. The one we are looking for works on a single endpoint. One of these holds the answer, also TryHackMe wants the acroymn of the name for the answer. Once you figure it out, highlight copy (ctrl + c) and paste (ctrl + v) or type, the answer in the TryHackMe answer field.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/e1953b8c29e3caa21a27a5910cde7039_MD5.jpg)
+![](_resources/02%20Snort/e1953b8c29e3caa21a27a5910cde7039_MD5.jpg)
 
 **Which snort mode can help you stop the threats on a local network?**
 
 From the question, we are stopping threats, so we want to look at an IPS (Intrusion Prevention System). Scroll up to the IPS section, we see that there are four different types of IPS, read the top two. We are looking for network traffic protection. One of these holds the answer, also TryHackMe wants the acroymn of the name for the answer. Once you figure it out, highlight copy (ctrl + c) and paste (ctrl + v) or type, the answer in the TryHackMe answer field.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/cbd5803a09ae304b448e4e51e7899ff0_MD5.jpg)
+![](_resources/02%20Snort/cbd5803a09ae304b448e4e51e7899ff0_MD5.jpg)
 
 **Which snort mode works similar to NIPS mode?**
 
 Scroll back up to the section you were just at, read the NIPS bullet point. After you have done reading, read the bullet point under it. You will found out it is quite similar. TryHackMe wants the acroymn of the name for the answer. Once you figure it out, highlight copy (ctrl + c) and paste (ctrl + v) or type, the answer in the TryHackMe answer field.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/dcfc16986fe8eb821fa51287cc1c60fc_MD5.jpg)
+![](_resources/02%20Snort/dcfc16986fe8eb821fa51287cc1c60fc_MD5.jpg)
 
 **According to the official description of the snort, what kind of NIPS is it?**
 
 Reading through the qoute that TryHackMe gives on, look for network intrusion prevention system, this is NIPS. The word before network is the answer. Once you figure it out, highlight copy (ctrl + c) and paste (ctrl + v) or type, the answer in the TryHackMe answer field.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/0e1e84449393b8d23380fa91f28f2e21_MD5.jpg)
+![](_resources/02%20Snort/0e1e84449393b8d23380fa91f28f2e21_MD5.jpg)
 
 **NBA training period is also known as …**
 
 Scroll up to the paragraph under the first two IDS, this is where you can find the answer to this question. Once you figure it out, highlight copy (ctrl + c) and paste (ctrl + v) or type, the answer in the TryHackMe answer field.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/50e943d9a7515a7b3af713bac22cb3ab_MD5.jpg)
+![](_resources/02%20Snort/50e943d9a7515a7b3af713bac22cb3ab_MD5.jpg)
 
 # Task 4 First Interaction with Snort
 
@@ -267,7 +267,7 @@ Once we use a configuration file, snort got much more power! The configuration f
 
 Note that every time you start the Snort, it will automatically show the default banner and initial information about your setup. You can prevent this by using the “**-q”** parameter.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/c7d205239ece3a6c7149096eaf370d6f_MD5.jpg)
+![](_resources/02%20Snort/c7d205239ece3a6c7149096eaf370d6f_MD5.jpg)
 
 That was an easy one; let’s continue exploring snort modes!
 
@@ -277,11 +277,11 @@ That was an easy one; let’s continue exploring snort modes!
 
 Time to run some commands, let’s start with the one that TryHackMe first gave us for snort, snort -V .
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/23c67513f7806e9cbd65ada1211903ca_MD5.jpg)
+![](_resources/02%20Snort/23c67513f7806e9cbd65ada1211903ca_MD5.jpg)
 
 Looking through the information giving we can see we have the Build number!!! Once you find it, type the answer in the TryHackMe answer field, then click submit.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/aa47d64c8bcd3d194b7dd64eece63686_MD5.jpg)
+![](_resources/02%20Snort/aa47d64c8bcd3d194b7dd64eece63686_MD5.jpg)
 
 Answer: 149
 
@@ -289,15 +289,15 @@ Answer: 149
 
 In this case we are going to run the second command given to us by TryHackMe, sudo snort -c /etc/snort/snort.conf -T . Then press enter to run it.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/35209d9c339467ac8b026b737b7e9956_MD5.jpg)
+![](_resources/02%20Snort/35209d9c339467ac8b026b737b7e9956_MD5.jpg)
 
 As before, we get quite the output, but we don’t see any number of rules here so time to start scrolling up.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/b2b16513c034eed015f924ecd29b4555_MD5.jpg)
+![](_resources/02%20Snort/b2b16513c034eed015f924ecd29b4555_MD5.jpg)
 
 Right before we get to the section where every line starts with Warning. We see a small section, the top line has a number then Snort rules read. The number at the front of this top line is the answer to the question. Once you find it, type the answer in the TryHackMe answer field, then click submit.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/9816f47f61135bd7c6d68e34fc6f05e7_MD5.jpg)
+![](_resources/02%20Snort/9816f47f61135bd7c6d68e34fc6f05e7_MD5.jpg)
 
 Answer: 4151
 
@@ -305,17 +305,17 @@ Answer: 4151
 
 So we are going to run almost the same command as the previous question, but we need to change the config file. So the syntax is, sudo snort -c /etc/snort/snortv2.conf -T . Then press enter to run the command.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/93f4d8156d1d2aba4da46e01c1550658_MD5.jpg)
+![](_resources/02%20Snort/93f4d8156d1d2aba4da46e01c1550658_MD5.jpg)
 
 After it has finished running, scroll up to the section similar to where we found the answer to the previous question, to find the answer to this quesiton. Once you find it, type the answer in the TryHackMe answer field, then click submit.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/dca299e07ac5fe6443e4522a714b8824_MD5.jpg)
+![](_resources/02%20Snort/dca299e07ac5fe6443e4522a714b8824_MD5.jpg)
 
 Answer: 1
 
 # Task 5 Operation Mode 1: Sniffer Mode
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/039da72bfcb3cd14b525aa8e4be0ca45_MD5.jpg)
+![](_resources/02%20Snort/039da72bfcb3cd14b525aa8e4be0ca45_MD5.jpg)
 
 **Let’s run Snort in Sniffer Mode**
 
@@ -323,7 +323,7 @@ Like tcpdump, Snort has various flags capable of viewing various data about the 
 
 Sniffer mode parameters are explained in the table below;
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/92fb5bb7cfc94fd70546d3b79650a287_MD5.jpg)
+![](_resources/02%20Snort/92fb5bb7cfc94fd70546d3b79650a287_MD5.jpg)
 
 -**i**This parameter helps to define a specific network interface to listen/sniff. Once you have multiple interfaces, you can choose a specific interface to sniff.
 
@@ -508,7 +508,7 @@ Type:0  Code:0  ID:15  Seq:1  ECHO REPLY
 
 # Task 6 Operation Mode 2: Packet Logger Mode
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/64ca8ae271354e9d7a121541b27d82d3_MD5.jpg)
+![](_resources/02%20Snort/64ca8ae271354e9d7a121541b27d82d3_MD5.jpg)
 
 ## Let’s run Snort in Logger Mode
 
@@ -516,7 +516,7 @@ You can use Snort as a sniffer and log the sniffed packets via logger mode. You 
 
 Packet logger parameters are explained in the table below;
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/3430cd6c17838f40b3082cce37d2b16c_MD5.jpeg)
+![](_resources/02%20Snort/3430cd6c17838f40b3082cce37d2b16c_MD5.jpeg)
 
 Let’s start using each parameter and see the difference between them. Snort needs active traffic on your interface, so we need to generate traffic to see Snort in action.
 
@@ -570,7 +570,7 @@ snort.log.1638459842
 
 As you can see, it is a single all-in-one log file. It is a binary/tcpdump format log. This is what it looks like in the folder view.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/3b35ac39824be7c078ec13bc4ca00983_MD5.jpg)
+![](_resources/02%20Snort/3b35ac39824be7c078ec13bc4ca00983_MD5.jpg)
 
 ## Logging with parameter "-K ASCII"
 
@@ -609,7 +609,7 @@ user@ubuntu$ ls .
 
 This is what it looks like in the folder view.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/7ce23413f884cabbfc0d2401e98bdab4_MD5.jpeg)
+![](_resources/02%20Snort/7ce23413f884cabbfc0d2401e98bdab4_MD5.jpeg)
 
 The logs created with “-K ASCII” parameter is entirely different. There are two folders with IP address names. Let’s look into them.
 
@@ -625,13 +625,13 @@ Once we look closer at the created folders, we can see that the logs are in ASCI
 
 This is what it looks like in the folder view.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/26a30a39c8411a95ecd1da9af25ca7fa_MD5.jpg)
+![](_resources/02%20Snort/26a30a39c8411a95ecd1da9af25ca7fa_MD5.jpg)
 
 In a nutshell, ASCII mode provides multiple files in human-readable format, so it is possible to read the logs easily by using a text editor. By contrast with ASCII format, binary format is not human-readable and requires analysis using Snort or an application like tcpdump.
 
 Let’s compare the ASCII format with the binary format by opening both of them in a text editor. The difference between the binary log file and the ASCII log file is shown below. (Left side: binary format. Right side: ASCII format).
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/c1f87b629e15710452b36bfaf2b59aff_MD5.jpg)
+![](_resources/02%20Snort/c1f87b629e15710452b36bfaf2b59aff_MD5.jpg)
 
 ## Reading generated logs with parameter "-r"
 
@@ -698,7 +698,7 @@ IP 192.168.175.129 > 142.250.187.110: ICMP echo request, id 1, seq 53, length 64
 ```
 Opening log file with Wireshark.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/ddad76594584521463ed689e8280d104_MD5.jpg)
+![](_resources/02%20Snort/ddad76594584521463ed689e8280d104_MD5.jpg)
 
 **"-r" parameter also allows users to filter the binary log files. You can filter the processed log to see specific packets with the “-r” parameter and Berkeley Packet Filters (BPF).**
 
@@ -731,41 +731,41 @@ Execute the traffic generator script and choose **“TASK-6 Exercise”**. Wait 
 
 In another terminal that you’ve been running the traffic-generator, type out the command above and press enter to run it.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/d9a468c86f7da4cceb6a79c646161bd5_MD5.jpg)
+![](_resources/02%20Snort/d9a468c86f7da4cceb6a79c646161bd5_MD5.jpg)
 
 A window will pop-up, you want to click on the TASK-6 Exercise.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/cf9d4daf159ce75e1885ba464db40136_MD5.jpg)
+![](_resources/02%20Snort/cf9d4daf159ce75e1885ba464db40136_MD5.jpg)
 
 Go back to your, and press enter to run Snort.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/afc956b5e3e9fdad16471db8761a532f_MD5.jpg)
+![](_resources/02%20Snort/afc956b5e3e9fdad16471db8761a532f_MD5.jpg)
 
 While Snort is running, go back to the Traffic generator and click the OK button in the bottom right.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/b7da288bec46bac3a2ff39c7fa773ac2_MD5.jpg)
+![](_resources/02%20Snort/b7da288bec46bac3a2ff39c7fa773ac2_MD5.jpg)
 
 Once the Traffic Generator is done running, press `ctrl c` to stop Snort. Once stop you are ready to start answering the question.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/6634822db648c6f3bfde18c0658bd7b3_MD5.jpg)
+![](_resources/02%20Snort/6634822db648c6f3bfde18c0658bd7b3_MD5.jpg)
 
 **Now, you should have the logs in the current directory. Navigate to folder “145.254.160.237”. What is the source port used to connect port 53?**
 
 Before we change move into the directory we have to change into a superuser, to do this use the command `sudo su` .
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/6fa3199c7b91517aa30c0b63ebe579eb_MD5.jpg)
+![](_resources/02%20Snort/6fa3199c7b91517aa30c0b63ebe579eb_MD5.jpg)
 
 Change directory with `cd 145.254.160.237/` .
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/732bbe4b6f0f814217b99488ff5634bd_MD5.jpg)
+![](_resources/02%20Snort/732bbe4b6f0f814217b99488ff5634bd_MD5.jpg)
 
 Now that we are in the directory let’s look to see what is in this directory with `ls` .
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/ae7963d026ed171404ca33941b7c7e3c_MD5.jpg)
+![](_resources/02%20Snort/ae7963d026ed171404ca33941b7c7e3c_MD5.jpg)
 
 We can see inside the directory that we have three logs, one of which deals with port 53. Once you find it, type the answer into the TryHackMe Answer field, then click submit.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/44a7fa8b41c86e3dce79f508d40227d2_MD5.jpg)
+![](_resources/02%20Snort/44a7fa8b41c86e3dce79f508d40227d2_MD5.jpg)
 
 Answer: 3009
 
@@ -773,11 +773,11 @@ Use **snort.log.1640048004**
 
 Go head back to the terminal that you were doing the Traffic Generator in. Running `ls` through the directories we can see where the snort.log.1640048004 is located.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/f162a6f219c28c302eed8b7bd6444f65_MD5.jpg)
+![](_resources/02%20Snort/f162a6f219c28c302eed8b7bd6444f65_MD5.jpg)
 
 Now it is time to change directories over to the directory that holds the log file with `cd Exercise-Files/TASK-6/` .
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/9d9263617cb0dbb7bc1cc6dbc71f77ba_MD5.jpg)
+![](_resources/02%20Snort/9d9263617cb0dbb7bc1cc6dbc71f77ba_MD5.jpg)
 
 Now you are ready to start running the next commands, and answering the next questions.
 
@@ -787,11 +787,11 @@ Now you are ready to start running the next commands, and answering the next que
 
 Run the command above execpt we need to add sudo, `sudo snort -r snort.log.1640048004 -n 10` . Press enter to run, and have snort read the log.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/a01a16e5789c01557854785d928139c5_MD5.jpg)
+![](_resources/02%20Snort/a01a16e5789c01557854785d928139c5_MD5.jpg)
 
 Scroll up till you reach the last packet. If you look at the third row of the packet you will see ID:, the number after is the answer. Once you find it, type the answer into the TryHackMe Answer field, then click submit.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/6c84d0fb907d0a6324cb8235b2e6cb85_MD5.jpg)
+![](_resources/02%20Snort/6c84d0fb907d0a6324cb8235b2e6cb85_MD5.jpg)
 
 Answer: 49313
 
@@ -799,11 +799,11 @@ Answer: 49313
 
 Let’s run the command again only this time we are going to add the -X parameter to it to display the details. So the command is `sudo snort -r snort.log.1640048004 -X -n 10` .
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/38b7fcba89d7e861988e9d75d0eb2fe4_MD5.jpg)
+![](_resources/02%20Snort/38b7fcba89d7e861988e9d75d0eb2fe4_MD5.jpg)
 
 Scroll down to the 4th output, once there we see a long line of hex. But we can see some readable text on the right, if you look down at the bottom of this readable text you will find Referer:, the answer is right after this. Once you find it, type the answer into the TryHackMe Answer field, then click submit.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/41f60d213673b5d094c59c64737f18cf_MD5.jpg)
+![](_resources/02%20Snort/41f60d213673b5d094c59c64737f18cf_MD5.jpg)
 
 Answer: [http://www.ethereal.com/development.html](http://www.ethereal.com/development.html)
 
@@ -811,7 +811,7 @@ Answer: [http://www.ethereal.com/development.html](http://www.ethereal.com/devel
 
 So scroll down till you reach packet 8 or what I did was got to packet 10 and scrolled up till I reached packet 8. But once you are there, look in the 4th row, you will see Ack:, the hex value is the answer. Once you find it, type the answer into the TryHackMe Answer field, then click submit.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/98f1e4423cba221dc0c127f31eb9f064_MD5.jpg)
+![](_resources/02%20Snort/98f1e4423cba221dc0c127f31eb9f064_MD5.jpg)
 
 Answer: 0x38AFFFF3
 
@@ -819,17 +819,17 @@ Answer: 0x38AFFFF3
 
 Time to modify the syntax a bit and run snort again, this time it should be `sudo snort -r snort.log.1640048004 'tcp port 80'` . Once you have this typed into the terminal press enter to run it.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/5ac875019439a688c07f8d80b1855e81_MD5.jpg)
+![](_resources/02%20Snort/5ac875019439a688c07f8d80b1855e81_MD5.jpg)
 
 When it is done running, the answer will be at the bottom in the Total row. Once you find it, type the answer into the TryHackMe Answer field, then click submit.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/9299b8871621acc4234745ee4be5cba0_MD5.jpg)
+![](_resources/02%20Snort/9299b8871621acc4234745ee4be5cba0_MD5.jpg)
 
 Answer: 41
 
 # Task 7 Operation Mode 3: IDS/IPS
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/6dac08fafe5c4fcc6341c7ece6e58975_MD5.jpg)
+![](_resources/02%20Snort/6dac08fafe5c4fcc6341c7ece6e58975_MD5.jpg)
 
 ## Snort in IDS/IPS Mode
 
@@ -841,7 +841,7 @@ Capabilities of Snort are not limited to sniffing and logging the traffic. IDS/I
 
 NIDS mode parameters are explained in the table below;
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/4ee1b7836d1d416ff5ceefd5d95834c2_MD5.jpg)
+![](_resources/02%20Snort/4ee1b7836d1d416ff5ceefd5d95834c2_MD5.jpg)
 
 Let’s start using each parameter and see the difference between them. Snort needs active traffic on your interface, so we need to generate traffic to see Snort in action. To do this, use **the traffic-generator** script and sniff the traffic.
 
@@ -1003,7 +1003,7 @@ Commencing packet processing (pid=3743)
 
 Let’s check the alarm file;
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/2b8247de0f394a392522707905fa8140_MD5.jpg)
+![](_resources/02%20Snort/2b8247de0f394a392522707905fa8140_MD5.jpg)
 
 As you can see in the given picture above, fast style alerts contain summary information on the action like direction and alert header.
 
@@ -1030,7 +1030,7 @@ Commencing packet processing (pid=3744)
 
 Let’s check the alarm file;
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/2c84ac416557a5f9f1a47b25c309b969_MD5.jpg)
+![](_resources/02%20Snort/2c84ac416557a5f9f1a47b25c309b969_MD5.jpg)
 
 As you can see in the given picture above, full style alerts contain all possible information on the action.
 
@@ -1057,7 +1057,7 @@ Commencing packet processing (pid=3745)
 
 As you can see in the picture below, there is no alert file. Snort only generated the log file.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/12513f42b11e30e38d70671ee9f857c7_MD5.jpg)
+![](_resources/02%20Snort/12513f42b11e30e38d70671ee9f857c7_MD5.jpg)
 
 ## IDS/IPS mode: "Using rule file without configuration file"
 
@@ -1115,13 +1115,13 @@ Execute the traffic generator script and choose **“TASK-7 Exercise”**. Wait 
 
 Head back to the terminal that your running Snort in. After the scan is complete, scroll up till you get to the HTTP Inspect section. Once you are at this section, which is close to the bottom, look for the GET methods, the answer can be found in this row. Once you find it, type the answer into the TryHackMe Answer field, then click submit.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/fabcd489b2f3adb577360c436f85e2c9_MD5.jpg)
+![](_resources/02%20Snort/fabcd489b2f3adb577360c436f85e2c9_MD5.jpg)
 
 Answer: 2
 
 # Task 8 Operation Mode 4: PCAP Investigation
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/aa5206b698c414c98360902361a28d65_MD5.jpg)
+![](_resources/02%20Snort/aa5206b698c414c98360902361a28d65_MD5.jpg)
 
 ## Let’s investigate PCAPs with Snort
 
@@ -1133,7 +1133,7 @@ Reading a pcap without using any additional parameters we discussed before will 
 
 PCAP mode parameters are explained in the table below;
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/c21a66df32a73f635b15670b311719d8_MD5.jpeg)
+![](_resources/02%20Snort/c21a66df32a73f635b15670b311719d8_MD5.jpeg)
 
 ## Investigating single PCAP with parameter "-r"
 
@@ -1237,7 +1237,7 @@ sudo snort -c /etc/snort/snort.conf -A full -l . -r mx-1.pcap
 
 Once Snort is done running we need to find how many alerts were generated. Scroll up till you see a section with Action Stats, this is the section with the number of Alerts. Look to the number on the right, in the Alerts column, this is the answer. Once you find it, type the answer into the TryHackMe Answer field, then click submit.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/ca00ce61caf33eacade8bdfbfe307926_MD5.jpg)
+![](_resources/02%20Snort/ca00ce61caf33eacade8bdfbfe307926_MD5.jpg)
 
 Answer: 170
 
@@ -1245,7 +1245,7 @@ Answer: 170
 
 Scroll two sections down, you will see Stream Statistics. In this section you will find the TCP Segments Queued, look to the number to the right and you will find the answer. Once you find it, type the answer into the TryHackMe Answer field, then click submit.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/a8fbe0084dbff40296c8a7c4b264af2e_MD5.jpg)
+![](_resources/02%20Snort/a8fbe0084dbff40296c8a7c4b264af2e_MD5.jpg)
 
 Answer: 18
 
@@ -1253,7 +1253,7 @@ Answer: 18
 
 Scroll down to the next section under the Stream Statistics, which will be the HTTP Inspect. In this section you will find the HTTP response Headers extracted, look to the number to the right and you will find the answer. Once you find it, type the answer into the TryHackMe Answer field, then click submit.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/cb81345884dce00ad4e17d82206487c6_MD5.jpg)
+![](_resources/02%20Snort/cb81345884dce00ad4e17d82206487c6_MD5.jpg)
 
 Answer: 3
 
@@ -1265,13 +1265,13 @@ sudo snort -c /etc/snort/snortv2.conf -A full -l . -r mx-1.pcap
 
 Type into the terminal the command above, then press enter to run it.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/ba61c3967779a49dc7a100829e124cd9_MD5.jpg)
+![](_resources/02%20Snort/ba61c3967779a49dc7a100829e124cd9_MD5.jpg)
 
 **What is the number of the generated alerts?**
 
 Like before scroll up to the Action Stats section, once you are there look for Alerts. When you find it, look to the number on the right this is the answer. Once you find it, type the answer into the TryHackMe Answer field, then click submit.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/890ca3419caab3fbe6965f97aea71705_MD5.jpg)
+![](_resources/02%20Snort/890ca3419caab3fbe6965f97aea71705_MD5.jpg)
 
 Answer: 68
 
@@ -1283,13 +1283,13 @@ sudo snort -c /etc/snort/snort.conf -A full -l . -r mx-2.pcap
 
 Type into the terminal the command above, then press enter to run it.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/12d4fc7eac98f6ea219cc6e2c92ee39f_MD5.jpg)
+![](_resources/02%20Snort/12d4fc7eac98f6ea219cc6e2c92ee39f_MD5.jpg)
 
 **What is the number of the generated alerts?**
 
 Like before scroll up to the Action Stats section, once you are there look for Alerts. When you find it, look to the number on the right this is the answer. Once you find it, type the answer into the TryHackMe Answer field, then click submit.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/ec780e4143a8a6e396073b639dbd8793_MD5.jpg)
+![](_resources/02%20Snort/ec780e4143a8a6e396073b639dbd8793_MD5.jpg)
 
 Answer: 340
 
@@ -1297,7 +1297,7 @@ Answer: 340
 
 Scroll up to the next section, Breakdown by Protocol. Look for TCP, then look for the number on the right, this is the answer. Once you find it, type the answer into the TryHackMe Answer field, then click submit.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/a69e55f9bc54a5583ef858932931da94_MD5.jpg)
+![](_resources/02%20Snort/a69e55f9bc54a5583ef858932931da94_MD5.jpg)
 
 Answer: 82
 
@@ -1309,25 +1309,25 @@ sudo snort -c /etc/snort/snort.conf -A full -l . --pcap-list="mx-2.pcap mx-3.pca
 
 Type into the terminal the command above, then press enter to run it.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/1c14eb63bdb050d415495efff6f4e163_MD5.jpg)
+![](_resources/02%20Snort/1c14eb63bdb050d415495efff6f4e163_MD5.jpg)
 
 **What is the number of the generated alerts?**
 
 For the last time, scroll up to the Action Stats section, once you are there look for Alerts. When you find it, look to the number on the right this is the answer. Once you find it, type the answer into the TryHackMe Answer field, then click submit.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/ba04bf9cbdd67f32cc52b2a8a26e95c5_MD5.jpg)
+![](_resources/02%20Snort/ba04bf9cbdd67f32cc52b2a8a26e95c5_MD5.jpg)
 
 Answer: 1020
 
 # Task 9 Snort Rule Structure
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/02d9506343af3aecbc874855e25e79a5_MD5.jpg)
+![](_resources/02%20Snort/02d9506343af3aecbc874855e25e79a5_MD5.jpg)
 
 **Let’s Learn Snort Rules!**
 
 Understanding the Snort rule format is essential for any blue and purple teamer. The primary structure of the snort rule is shown below;
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/2ffa9215e83bbed9c1190d79266448cb_MD5.jpg)
+![](_resources/02%20Snort/2ffa9215e83bbed9c1190d79266448cb_MD5.jpg)
 
 Each rule should have a type of action, protocol, source and destination IP, source and destination port and an option. Remember, Snort is in passive mode by default. So most of the time, you will use Snort as an IDS. You will need to start **“inline mode” to turn on IPS mode.** But before you start playing with inline mode, you should be familiar with Snort features and rules.
 
@@ -1337,13 +1337,13 @@ We will cover the basic rule structure in this room and help you take a step int
 
 Rules cannot be processed without a header. Rule options are “optional” parts. However, it is almost impossible to detect sophisticated attacks without using the rule options.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/f4bf5862773565a64f5da99bf29f2565_MD5.jpg)
+![](_resources/02%20Snort/f4bf5862773565a64f5da99bf29f2565_MD5.jpg)
 
 ## IP and Port Numbers
 
 These parameters identify the source and destination IP addresses and associated port numbers filtered for the rule.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/d2ada3da0d746562a9d56c13e8d03aaf_MD5.jpg)
+![](_resources/02%20Snort/d2ada3da0d746562a9d56c13e8d03aaf_MD5.jpg)
 
 ## Direction
 
@@ -1354,7 +1354,7 @@ The direction operator indicates the traffic flow to be filtered by Snort. The l
 
 **Note that there is no “<-” operator in Snort.**
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/37df96c307ca03a2e14d046ed176c848_MD5.jpg)
+![](_resources/02%20Snort/37df96c307ca03a2e14d046ed176c848_MD5.jpg)
 
 ## There are three main rule options in Snort
 
@@ -1364,17 +1364,17 @@ The direction operator indicates the traffic flow to be filtered by Snort. The l
 
 ## General Rule Options
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/882d5425a14116eabe6c3e9646f893fb_MD5.jpg)
+![](_resources/02%20Snort/882d5425a14116eabe6c3e9646f893fb_MD5.jpg)
 
 ## Payload Detection Rule Options
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/9de2d8258d76de8bc121ef0f78a771a7_MD5.jpg)
+![](_resources/02%20Snort/9de2d8258d76de8bc121ef0f78a771a7_MD5.jpg)
 
 ## Non-Payload Detection Rule Options
 
 There are rule options that focus on non-payload data. These options will help create specific patterns and identify network issues.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/b935b1f3ab0fcae3da6f9ea5b7090aed_MD5.jpg)
+![](_resources/02%20Snort/b935b1f3ab0fcae3da6f9ea5b7090aed_MD5.jpg)
 
 Remember, once you create a rule, it is a local rule and should be in your “local.rules” file. This file is located under “/etc/snort/rules/local.rules”. A quick reminder on how to edit your local rules is shown below.
 
@@ -1386,7 +1386,7 @@ user@ubuntu$ sudo gedit /etc/snort/rules/local.rules
 
 That is your “local.rules” file.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/609cb0e6c73034e7f5a1348bb3bfb355_MD5.jpg)
+![](_resources/02%20Snort/609cb0e6c73034e7f5a1348bb3bfb355_MD5.jpg)
 
 Note that there are some default rules activated with snort instance. These rules are deactivated to manage your rules and improve your exercise experience. For further information, please refer to the TASK-10 or [Snort manual](http://manual-snort-org.s3-website-us-east-1.amazonaws.com/).
 
@@ -1394,7 +1394,7 @@ By this point, we covered the primary structure of the Snort rules. Understandin
 
 Wow! We have covered the fundamentals of the Snort rules! Now, use the attached VM and navigate to the Task-Exercises/Exercise-Files/TASK-9 folder to answer the questions! Note that you can use the following command to create the logs in the **current directory:** `**-l .**`
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/c76afd9aafce33e82c0f2c8a50154f20_MD5.jpg)
+![](_resources/02%20Snort/c76afd9aafce33e82c0f2c8a50154f20_MD5.jpg)
 
 ### Answer the questions below
 
@@ -1408,31 +1408,31 @@ snort -c local.rules -A full -l . -r task9.pcap
 
 While in the TASK-9 directory, use the command `sudo gedit local.rules` and press enter to open a text editor, so we can start writing our Snort rules.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/668cd60508bd55126264820dd4d46497_MD5.jpg)
+![](_resources/02%20Snort/668cd60508bd55126264820dd4d46497_MD5.jpg)
 
 Now that we have our text editor open, we have to write our first rule. Let’s start it off with `alert icmp any any <> any any`, we start it off this way because we don’t have an IP address to check, so we use the any on both sides of the directional arrows. The protocol we aren’t sure on yet either, so we can start with icmp. Next we want to do the Rule options, so this is what I did `(msg:"Sus IP ID found"; id:35369; sid:1000001; rev:1;)`, the message can be whatever you want it to be but it should be descriptive, then I added the id given to me by TryHackMe. Then to finish it up since it it the first rule the sid is 1000001, and the first revision as well.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/9e0f0eee2553000b903edafd503ac1a7_MD5.jpg)
+![](_resources/02%20Snort/9e0f0eee2553000b903edafd503ac1a7_MD5.jpg)
 
 Use the keyboard shortcut to save the rule ctrl + s . Then you can click the X in the top right of the window, after you do this you will be back at the terminal and should see this below.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/e4ab79604df4cb4c42e049a2c138b2f3_MD5.jpg)
+![](_resources/02%20Snort/e4ab79604df4cb4c42e049a2c138b2f3_MD5.jpg)
 
 Now run the command given above to use you newly written rule against the pcap file in this directory. The command is `sudo snort -c local.rules -A full -l . -r task9.pcap`. Press enter to run the command.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/fd4d3413eb9336c4d9fbc32fa05a7692_MD5.jpg)
+![](_resources/02%20Snort/fd4d3413eb9336c4d9fbc32fa05a7692_MD5.jpg)
 
 After Snort is done running, we can run `ls`to see what all is in the directory, and we see the Snort log file.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/626de287a9e2a8e164f3a396b4e3e7c2_MD5.jpg)
+![](_resources/02%20Snort/626de287a9e2a8e164f3a396b4e3e7c2_MD5.jpg)
 
 So as we learned back in task 6 we can read the log file with the command `sudo snort -r snort.log.1671635190`, your log file may be named different but you get the gist.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/da8bf50c2bc66eea207ef9328982966a_MD5.jpg)
+![](_resources/02%20Snort/da8bf50c2bc66eea207ef9328982966a_MD5.jpg)
 
 When it is done, scroll back up towards the top till you reach the one packet that is in the log. In this packet is the answer to the question, look to the last line any it is the final two words. Once you find it, type the answer into the TryHackMe answer field, then click submit.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/0b15130df206bcaafbbd0e2e24997ebe_MD5.jpg)
+![](_resources/02%20Snort/0b15130df206bcaafbbd0e2e24997ebe_MD5.jpg)
 
 Answer: TIMESTAMP REQUEST
 
@@ -1440,31 +1440,31 @@ Answer: TIMESTAMP REQUEST
 
 Once again use the command `sudo gedit local.rules`, then press enter to open the text editor
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/4c4740bad7c29218657d3e94e47b19ed_MD5.jpg)
+![](_resources/02%20Snort/4c4740bad7c29218657d3e94e47b19ed_MD5.jpg)
 
 Time for the second rule, this time it is much like the first. The command go as such `alert tcp any any <> any any (msg:"Flag SYN Test"; flags:S;sid:1000002;rev:1;)`. We just indicate that we are searching for anything with a SYN flag.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/a250cba7343a1973c98e0f49d765592d_MD5.jpg)
+![](_resources/02%20Snort/a250cba7343a1973c98e0f49d765592d_MD5.jpg)
 
 So as before, save (ctrl + s) and X out of the text editor window, and your back in the terminal.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/36ca1a33f51cecf8d41926534b41f4df_MD5.jpg)
+![](_resources/02%20Snort/36ca1a33f51cecf8d41926534b41f4df_MD5.jpg)
 
 Now run the command given above to use you newly written rule against the pcap file in this directory. The command is `sudo snort -c local.rules -A full -l . -r task9.pcap`. Press enter to run the command.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/fd4d3413eb9336c4d9fbc32fa05a7692_MD5.jpg)
+![](_resources/02%20Snort/fd4d3413eb9336c4d9fbc32fa05a7692_MD5.jpg)
 
 After Snort is done running, we can run `ls`to see what all is in the directory, and we see a new Snort log file.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/d66978277141a39db6e71a8051e1cde8_MD5.jpg)
+![](_resources/02%20Snort/d66978277141a39db6e71a8051e1cde8_MD5.jpg)
 
 So as we learned back in task 6 we can read the log file with the command `sudo snort -r snort.log.1671635190`, your log file may be named different but you get the gist.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/785b51109a598fbccca419f7837b420d_MD5.jpg)
+![](_resources/02%20Snort/785b51109a598fbccca419f7837b420d_MD5.jpg)
 
 Scroll back up to the packets sections, looks like we have two. But if you remember, that first packet is being detected by our first rule so we can’t count that one. So how many do we really have? Once you have it figured out, type the answer into the TryHackMe answer field, then click submit.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/b48bf3dfa93f200051ed4f8413eb8e52_MD5.jpg)
+![](_resources/02%20Snort/b48bf3dfa93f200051ed4f8413eb8e52_MD5.jpg)
 
 Answer: 1
 
@@ -1472,19 +1472,19 @@ Clear the previous log and alarm files and deactivate/comment out the old rule.
 
 Opening up the text editor again with `sudo gedit local.rules`.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/36fb9582b6463244b603803060d55406_MD5.jpg)
+![](_resources/02%20Snort/36fb9582b6463244b603803060d55406_MD5.jpg)
 
 To comment out the rules, put a `#` in from of the rule, then snort will not run it, and think it is just text like above.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/7a35a647dd569f3acc3516eacd05aab8_MD5.jpg)
+![](_resources/02%20Snort/7a35a647dd569f3acc3516eacd05aab8_MD5.jpg)
 
 So as before, save (ctrl + s) and X out of the text editor window, and your back in the terminal.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/faa550d167cbb69177f53ce5fc5e91d9_MD5.jpg)
+![](_resources/02%20Snort/faa550d167cbb69177f53ce5fc5e91d9_MD5.jpg)
 
 Now to remove the Alerts and the logs. To do this we can use the `rm` command. So start with the `ls` command to view what is in the directory. From there you want to then use the command `sudo rm snort.log.167635190 snort.log.1671638632`, we use sudo because you have to have admin rights to remove the files the the rm command to remove, then the file names. Do not remove the alert file you could break the Snort scanning, not sure why but it does.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/ed47e5c6b1c0a691faf0dad8d0491baa_MD5.jpg)
+![](_resources/02%20Snort/ed47e5c6b1c0a691faf0dad8d0491baa_MD5.jpg)
 
 You are ready to move onto the next question.
 
@@ -1492,31 +1492,31 @@ You are ready to move onto the next question.
 
 Opening up the text editor again with `sudo gedit local.rules`.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/76be592ca825329a73c0f991971cc15f_MD5.jpg)
+![](_resources/02%20Snort/76be592ca825329a73c0f991971cc15f_MD5.jpg)
 
 The rule is going to be made up just like rule two, but we are going to Which will make the command, `alert tcp any any <> any any (msg:"Flag Push-Ack Test"; flags:P,A; sid:1000003; rev:1;)`.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/24a589dd026d0bb6bdd227ff2d3fbdc1_MD5.jpg)
+![](_resources/02%20Snort/24a589dd026d0bb6bdd227ff2d3fbdc1_MD5.jpg)
 
 So as before, save (ctrl + s) and X out of the text editor window, and your back in the terminal.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/faa550d167cbb69177f53ce5fc5e91d9_MD5.jpg)
+![](_resources/02%20Snort/faa550d167cbb69177f53ce5fc5e91d9_MD5.jpg)
 
 Now run the command given by TryHackMe above to use you newly written rule against the pcap file in this directory. The command is `sudo snort -c local.rules -A full -l . -r task9.pcap`. Press enter to run the command.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/fd4d3413eb9336c4d9fbc32fa05a7692_MD5.jpg)
+![](_resources/02%20Snort/fd4d3413eb9336c4d9fbc32fa05a7692_MD5.jpg)
 
 After Snort is done running, we can run `ls`to see what all is in the directory, and we see a new Snort log file.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/d759a9d8c9aef6f8a7a0e2f9ad5a4eaa_MD5.jpg)
+![](_resources/02%20Snort/d759a9d8c9aef6f8a7a0e2f9ad5a4eaa_MD5.jpg)
 
 So as we learned back in task 6 we can read the log file with the command `sudo snort -r snort.log.1671643846`, your log file may be named different but you get the gist.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/bf1e73184f927b68daf28feae0b07f30_MD5.jpg)
+![](_resources/02%20Snort/bf1e73184f927b68daf28feae0b07f30_MD5.jpg)
 
 When Snort is done outputing the file, you will see Total at the bottom. The number to the right of this is the answer to the question. Once you find it, type the answer into the TryHackMe Answer field, then click submit.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/de962b0280fff46a1c46ae5f636f3638_MD5.jpg)
+![](_resources/02%20Snort/de962b0280fff46a1c46ae5f636f3638_MD5.jpg)
 
 Answer: 216
 
@@ -1524,19 +1524,19 @@ Clear the previous log and alarm files and deactivate/comment out the old rule.
 
 Opening up the text editor again with `sudo gedit local.rules`.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/6f4ab7af19632275aea54f53d4aaf6e9_MD5.jpg)
+![](_resources/02%20Snort/6f4ab7af19632275aea54f53d4aaf6e9_MD5.jpg)
 
 To comment out the rules, put a `#` in from of the rule, then snort will not run it, and think it is just text like above.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/f3c80e43365e758b3ab40d88cfb83732_MD5.jpg)
+![](_resources/02%20Snort/f3c80e43365e758b3ab40d88cfb83732_MD5.jpg)
 
 So as before, save (ctrl + s) and X out of the text editor window, and your back in the terminal.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/faa550d167cbb69177f53ce5fc5e91d9_MD5.jpg)
+![](_resources/02%20Snort/faa550d167cbb69177f53ce5fc5e91d9_MD5.jpg)
 
 Now to remove log file. To do this we can use the `rm` command. So start with the `ls` command to view what is in the directory. From there you want to then use the command `sudo rm snort.log.1671643846`, we use sudo because you have to have admin rights to remove the files the the rm command to remove, then the file names.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/338526e16cbe94e4442e4cda322709b5_MD5.jpg)
+![](_resources/02%20Snort/338526e16cbe94e4442e4cda322709b5_MD5.jpg)
 
 You are ready to move onto the next question.
 
@@ -1544,31 +1544,31 @@ You are ready to move onto the next question.
 
 Opening up the text editor again with `sudo gedit local.rules`.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/c0f70546a28ebe2b42af1c0b4ae76dd6_MD5.jpg)
+![](_resources/02%20Snort/c0f70546a28ebe2b42af1c0b4ae76dd6_MD5.jpg)
 
 We learned about this in the above section **Non-Payload Detection Rule Options,** it is at the bottom of the table. After taking a look at it, we have our rule layed out for us nicely. The rule then is `alert ip any any <> any any (msg:"Same IP"; sameip; sid:1000004; rev:1;)`. But we need to filter out both tcp and udp, unfortunately you can’t do both protocols in one rule so you must do two rules. In the front after alert the first one I have tcp and the second I have udp. But the rest is pretty much the same.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/5babac5c67c06411330bbba99925fa03_MD5.jpg)
+![](_resources/02%20Snort/5babac5c67c06411330bbba99925fa03_MD5.jpg)
 
 So as before, save (ctrl + s) and X out of the text editor window, and your back in the terminal.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/faa550d167cbb69177f53ce5fc5e91d9_MD5.jpg)
+![](_resources/02%20Snort/faa550d167cbb69177f53ce5fc5e91d9_MD5.jpg)
 
 Now run the command given by TryHackMe above to use you newly written rule against the pcap file in this directory. The command is `sudo snort -c local.rules -A full -l . -r task9.pcap`. Press enter to run the command.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/fd4d3413eb9336c4d9fbc32fa05a7692_MD5.jpg)
+![](_resources/02%20Snort/fd4d3413eb9336c4d9fbc32fa05a7692_MD5.jpg)
 
 After Snort is done running, we can run `ls`to see what all is in the directory, and we see a new Snort log file.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/a622db93601e3908a69dc4047de39064_MD5.jpg)
+![](_resources/02%20Snort/a622db93601e3908a69dc4047de39064_MD5.jpg)
 
 So as we learned back in task 6 we can read the log file with the command `sudo snort -r snort.log.1671651153`, your log file may be named different but you get the gist.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/c73f57d0c3fbb066813439bc04f0bc81_MD5.jpg)
+![](_resources/02%20Snort/c73f57d0c3fbb066813439bc04f0bc81_MD5.jpg)
 
 Like after running the previous rule through snort, the answer is going to be found at the bottom. Look at the Total row and move to the right, the number is the answer. Once you find it, type the answer into the TryHackMe Answer field, then click submit.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/6402b49c7152e273ffeaca028f2e283d_MD5.jpg)
+![](_resources/02%20Snort/6402b49c7152e273ffeaca028f2e283d_MD5.jpg)
 
 Answer: 10
 
@@ -1578,7 +1578,7 @@ _Edit: I had someone inform me that the answer to this question is different at 
 
 Since you can find the answer above I won’t be sharing it here, but follow along to help discover it if you need help. Scroll up to the General Rule Options, at the bottom of this table is where you can find the answer. Once you find it, type the answer into the TryHackMe Answer field, then click submit.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/68d92c47fd7dfeb24f4973bd42ddeec9_MD5.jpg)
+![](_resources/02%20Snort/68d92c47fd7dfeb24f4973bd42ddeec9_MD5.jpg)
 
 # Task 10 Snort2 Operation Logic: Points to Remember
 
@@ -1613,13 +1613,13 @@ Since it is a long, all-in-one configuration file, editing it without causing mi
 
 This section manages the scope of the detection and rule paths.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/7bf40ef7a3dd28a52d918f3613ad48dc_MD5.jpg)
+![](_resources/02%20Snort/7bf40ef7a3dd28a52d918f3613ad48dc_MD5.jpg)
 
 ## Navigate to the “Step #2: Configure the decoder.” section.
 
 In this section, you manage the IPS mode of snort. The single-node installation model IPS model works best with “afpacket” mode. You can enable this mode and run Snort in IPS.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/70ee6b639029e7f42d316c41867e79e3_MD5.jpg)
+![](_resources/02%20Snort/70ee6b639029e7f42d316c41867e79e3_MD5.jpg)
 
 Data Acquisition Modules (DAQ) are specific libraries used for packet I/O, bringing flexibility to process packets. It is possible to select DAQ type and mode for different purposes.
 
@@ -1640,7 +1640,7 @@ This section manages the outputs of the IDS/IPS actions, such as logging and ale
 
 ## Navigate to the “Step #7: Customise your ruleset” section.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/9370685c7c4848efee462de23144976c_MD5.jpg)
+![](_resources/02%20Snort/9370685c7c4848efee462de23144976c_MD5.jpg)
 
 **Note that “#” is commenting operator. You should uncomment a line to activate it.**
 
@@ -1659,6 +1659,6 @@ Now, we invite you to complete the snort challenge room: [Snort Challenge — Li
 
 A great way to quickly recall snort rules and commands is to download and refer to the TryHackMe snort cheatsheet.
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/f8ddfd4a9a97258360c86f200b38a781_MD5.jpg)
+![](_resources/02%20Snort/f8ddfd4a9a97258360c86f200b38a781_MD5.jpg)
 
-![](03%20-%20Network%20Security%20and%20Traffic%20Analysis/_resources/02%20Snort/68bbcf26a61c990ae126735186df33ab_MD5.jpg)
+![](_resources/02%20Snort/68bbcf26a61c990ae126735186df33ab_MD5.jpg)

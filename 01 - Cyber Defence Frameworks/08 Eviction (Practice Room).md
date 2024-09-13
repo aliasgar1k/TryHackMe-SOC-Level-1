@@ -4,7 +4,7 @@ https://medium.com/@saloni1111997/eviction-tryhackme-walkthrough-b21bb3d4d41e
 
 This room is by [TryHackme](https://tryhackme.com/r/room/eviction) and is beginner-friendly.
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/08%20Eviction%20(Practice%20Room)/7819f97f0a96ee928a93cbcdb41925c3_MD5.webp)
+![](_resources/08%20Eviction%20(Practice%20Room)/7819f97f0a96ee928a93cbcdb41925c3_MD5.webp)
 
 **Overview :**
 
@@ -18,7 +18,7 @@ Please visit [this](https://static-labs.tryhackme.cloud/sites/eviction/) link to
 
 [https://static-labs.tryhackme.cloud/sites/eviction/](https://static-labs.tryhackme.cloud/sites/eviction/)
 
-![](01%20-%20Cyber%20Defence%20Frameworks/_resources/08%20Eviction%20(Practice%20Room)/d4c9def2f366dbc61acb64f75bcdb7a6_MD5.jpg)
+![](_resources/08%20Eviction%20(Practice%20Room)/d4c9def2f366dbc61acb64f75bcdb7a6_MD5.jpg)
 
 **What is a technique used by the APT to both perform recon and gain initial access?**
 

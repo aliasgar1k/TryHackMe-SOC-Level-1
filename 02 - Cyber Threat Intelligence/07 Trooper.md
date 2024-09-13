@@ -8,7 +8,7 @@ A multinational technology company has been the target of several cyber attacks 
 
 Start the virtual machine by clicking on the green “**Start Machine**” button on the upper right section of this task. Give it about **7 minutes** to fully load and use the credentials below to access the platforms via the AttackBox or VPN to conduct your investigations.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/07%20Trooper/acb6e8ddd33adbe7d97b5ed2f72e3eb3_MD5.jpeg)
+![](_resources/07%20Trooper/acb6e8ddd33adbe7d97b5ed2f72e3eb3_MD5.jpeg)
 
 **What kind of phishing campaign does APT X use as part of their TTPs ?**
 
@@ -28,9 +28,9 @@ Answer: USBferry
 
 We’ll utilize our threat intelligence platform, OpenCTI, for this task. After accessing OpenCTI, we need to check for the USBferry malware.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/07%20Trooper/d30441fa67affd640741b6abf4d79104_MD5.jpg)
+![](_resources/07%20Trooper/d30441fa67affd640741b6abf4d79104_MD5.jpg)
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/07%20Trooper/ff27adfbe0a3383b44c2828196299bf2_MD5.jpg)
+![](_resources/07%20Trooper/ff27adfbe0a3383b44c2828196299bf2_MD5.jpg)
 
 Answer: 5d0ea014–1ce9–5d5c-bcc7-f625a07907d0
 
@@ -38,7 +38,7 @@ Answer: 5d0ea014–1ce9–5d5c-bcc7-f625a07907d0
 
 You can find this information using the MITRE ATT&CK Navigator. By examining the initial access tactics associated with this group, you can identify the techniques employed by the threat actor.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/07%20Trooper/34299eb83db1cf639e06a9ccc828c12f_MD5.jpg)
+![](_resources/07%20Trooper/34299eb83db1cf639e06a9ccc828c12f_MD5.jpg)
 
 Answer: Replication through removable media
 
@@ -46,17 +46,17 @@ Answer: Replication through removable media
 
 **APT X** is known by **Tropic Trooper** .
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/07%20Trooper/5e02d8ec0016724542c4d57b9c29ca2a_MD5.jpg)
+![](_resources/07%20Trooper/5e02d8ec0016724542c4d57b9c29ca2a_MD5.jpg)
 
 This can also be found using OpenCTI, by checking the reports related to USBferry.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/07%20Trooper/0408a09851d18bdf76835206bc26de4c_MD5.jpg)
+![](_resources/07%20Trooper/0408a09851d18bdf76835206bc26de4c_MD5.jpg)
 
 Answer: Tropic Trooper
 
 **On OpenCTI, how many Attack Pattern techniques are associated with the APT ?**
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/07%20Trooper/bfcdbdba4fd5373a8833bdf2ff29595a_MD5.jpg)
+![](_resources/07%20Trooper/bfcdbdba4fd5373a8833bdf2ff29595a_MD5.jpg)
 
 **39 attack patterns** are associated with Tropic Trooper threat actor .
 
@@ -66,7 +66,7 @@ Answer: 39
 
 Using OPENCTI, we can find tools used by Tropic Trooper group, but checking the **arsenal menu** related to the threat actor in the right corner, then **tools**.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/07%20Trooper/517831b171b7cf17fad2ce839b0890aa_MD5.jpg)
+![](_resources/07%20Trooper/517831b171b7cf17fad2ce839b0890aa_MD5.jpg)
 
 Answer: BITSAdmin
 
@@ -76,7 +76,7 @@ https://mitre-attack.github.io/attack-navigator//#layerURL=https%3A%2F%2Fattack.
 
 Review the persistence tactic, then expand the “**Valid Accounts**” technique at the bottom.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/07%20Trooper/c4aee48955eebf75dabf510f85d76910_MD5.jpg)
+![](_resources/07%20Trooper/c4aee48955eebf75dabf510f85d76910_MD5.jpg)
 
 Answer: Local Accounts
 
@@ -100,7 +100,7 @@ Answer: Initial Access, Persistence, Defense Evasion and Privilege Escalation
 
 The group is known for using an “**automated collection”** technique as part of their **collection** strategy.
 
-![](02%20-%20Cyber%20Threat%20Intelligence/_resources/07%20Trooper/65d673bbace72307979dad691d6a08b3_MD5.jpg)
+![](_resources/07%20Trooper/65d673bbace72307979dad691d6a08b3_MD5.jpg)
 
 Answer : Automated Collection
 
